@@ -1,0 +1,795 @@
+							<img alt="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 600, height: 600, crop : 'limit' })}}" />
+			<img alt="{{%title}}" title="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 220, height: 220, crop : 'fill' })}}" />		
+					<![CDATA[{{:image}}<img src="{{image.resource.getThumbnailUrl({ "width" : 800, "crop" : "fit" })}}">{{/image}}{{teaser}}]]>
+					<img src="{{image.resource.getThumbnailUrl({ "height" : 220, "width" : 220, "crop" : "fill" })}}"/>
+									<img src="{{~plugins.cloudinary.createResource({ raw : data.image.resource_raw }).getThumbnailUrl({ 'height' : 200, 'width' : 200, 'crop' : 'fill' })}}" alt="{{image.title}}" />
+					<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill" })}}"/>
+											default : helpers.var.resource.getThumbnailUrl({ height : 550, width : 1903, crop : 'fill', quality: 50 }),
+												1024 : helpers.var.resource.getThumbnailUrl({ height : 348, width : 1024, crop : 'fill', quality: 50 }),
+												640 : helpers.var.mobileCrop.getThumbnailUrl({ height : 500, width : 640, crop : 'fill', quality: 50 })
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 652, "width" : 977, "crop" : "fill" })}}"/>
+								<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 100, "width" : 100, "crop" : "fill" })}}"/>
+									<img class="responsive" src="{{asset.resource.getThumbnailUrl({ height : 388, width : 603, crop : 'fill', quality : 74 })}}" alt="{{%asset.alt_text}}"/>
+					<img src="{{image.resource.getThumbnailUrl({ width : 320, crop : 'fill'})}}"/>
+				        <img class="responsive" src="{{asset.resource.getThumbnailUrl({ height : 270, width : 479, crop : 'fill' })}}" alt="{{%asset.alt_text}}">
+							<img src="{{asset.resource.getThumbnailUrl({ height : 370, width : 574, crop : 'fill' })}}" alt="{{%asset.alt_text}}" />
+						<img class="main-image responsive show-for-medium-up" src="{{asset.resource.getThumbnailUrl({ height : 600, width : 1024, crop : 'fill' })}}">
+						<img class="main-image responsive show-for-small-only" src="{{asset.resource.getThumbnailUrl({ height : 508, width : 640, crop : 'fill' })}}">
+							default : helpers.var.resource.getThumbnailUrl({ height : 833, width : 1903, crop : 'fill', quality: 50 }),
+								1024 : helpers.var.resource.getThumbnailUrl({ height : 448, width : 1024, crop : 'fill', quality: 50 }),
+								640 : helpers.var.mobileCrop.getThumbnailUrl({ height : 954, width : 640, crop : 'fill', quality: 50 })
+										<source media="(min-width: 40.063em) and (max-width: 64.063em)" srcset="{{~var.resource.getThumbnailUrl({ height : 448, width : 1024, crop : 'fill', quality : 75 })}}">
+										<source media="(max-width: 40.063em)" srcset="{{~var.mobileCrop.getThumbnailUrl({ height : 954, width : 640, crop : 'fill', quality: 50 })}}">
+										<img src="{{~var.resource.getThumbnailUrl({ height : 833, width : 1903, crop : 'fill', quality: 50 })}}" alt="{{%asset.alt_text}}" class="slide-img" data-sizes="{{%~stringify(helpers.var.sizes)}}">
+									<source media="(min-width: 40.063em) and (max-width: 64.063em)" srcset="{{~var.resource.getThumbnailUrl({ height : 448, width : 1024, crop : 'fill', quality : 75 })}}">
+									<source media="(max-width: 40.063em)" srcset="{{~var.mobileCrop.getThumbnailUrl({ height : 954, width : 640, crop : 'fill', quality: 50 })}}">
+									<img src="{{~var.resource.getThumbnailUrl({ height : 833, width : 1903, crop : 'fill', quality: 50 })}}" alt="{{%asset.alt_text}}" class="slide-img" data-sizes="{{%~stringify(helpers.var.sizes)}}">
+							default : helpers.var.resource.getThumbnailUrl({ height : 550, width : 1903, crop : 'fill', quality: 50 }),
+								1024 : helpers.var.resource.getThumbnailUrl({ height : 348, width : 1024, crop : 'fill', quality: 50 }),
+								640 : helpers.var.mobileCrop.getThumbnailUrl({ height : 500, width : 640, crop : 'fill', quality: 50 })
+							<img class="hide-for-small-only" src="{{asset.resource.getThumbnailUrl({ height : 662, width : 662, crop : 'fill' })}}" alt="{{%asset.alt_text}}">
+							<img class="hide-for-medium-up" src="{{asset.resource.getThumbnailUrl({ height : 419, width : 624, crop : 'fill' })}}" alt="{{%asset.alt_text}}">
+						<img src="{{asset.resource.getThumbnailUrl({ height : 270, width : 479, crop : 'fill' })}}" alt="{{%asset.alt_text}}">
+						<img src="{{asset.resource.getThumbnailUrl({ height : 561, width : 594, crop : 'fill' })}}" alt="{{%asset.alt_text}}">
+				<img src="{{image.resource.getThumbnailUrl({ height : 30, width : 190 })}}" alt="{{%image.alt_text}}" />
+				<img src="{{~var.resource.getThumbnailUrl({ width : 320, height : 50, crop : 'fill' })}}" alt="{{%asset.alt_text}}" />
+						<img src="{{asset.resource.getThumbnailUrl({ height : 212, width : 380, crop : 'fill' })}}" alt="">
+					<img src="{{image.resource.getThumbnailUrl({ "height" : 652, "width" : 977, 'crop' : 'fill' })}}"/>
+							<img src="{{asset.resource.getThumbnailUrl({ height : 926, width : 977, crop : 'fill' })}}"/>
+						<img class="responsive" src="{{asset.resource.getThumbnailUrl({ height : 824, width : 475, crop : 'fill' })}}" alt="{{%asset.alt_text}}"/>
+							<img class="responsive" src="{{asset.resource.getThumbnailUrl({ height : 168, width : 298, crop : 'fill' })}}" alt="{{%asset.alt_text}}">
+					<a href="{{resource.getThumbnailUrl({ crop : 'limit', width : 1200 })}}" data-sv-play>
+						<img  class="responsive" src="{{resource.getThumbnailUrl({ width : 810, height : 768, crop : 'fill' })}}" alt="{{medianame}}" />
+			<img  class="responsive" src="{{~var.placeholderAsset.resource.getThumbnailUrl({ width : 810, height : 768, crop : 'fill' })}}" />
+	var img = data.image.resource.getThumbnailUrl({ width : 583, height : 827, crop : 'fill', quality: 100 });
+<div class="vguide-mosaic" style="background: url({{~var.mobileCrop.resource.getThumbnailUrl({ width : 640, height : 75, crop : 'fill' })}}) center center no-repeat">
+		<img class="show-for-medium-up" src="{{~var.croppedImage.resource.getThumbnailUrl({ flags: 'cutter', overlay:'albuquerque-vguide-mosaic-mask_bo9svp' })}}"/>
+				<img src="{{image.resource.getThumbnailUrl({ height : 148, width : 138, crop : 'fill' })}}">
+			<img class="responsive" src="{{~var.image.getThumbnailUrl({ "height" : 384, "width" : 405, "crop" : "fill" })}}" alt=""/>
+							<img src='{{media.0.getThumbnailUrl({width : 150, height : 100, crop : 'fill'})}}'/>
+			<img class="responsive" src="{{~var.newPrimaryImage.resource.getThumbnailUrl({ "height" : 316, "width" : 316, "crop" : "fill" })}}" alt=""/>
+			<img class="responsive" src="{{primary_image.resource.getThumbnailUrl({ "height" : 440, "width" : 501, "crop" : "fill" })}}" alt=""/>
+			<img class="responsive" src="{{~var.newPrimaryImage.resource.getThumbnailUrl({ "height" : 177, "width" : 266, "crop" : "fill" })}}" alt=""/>
+						<img src="{{image.resource.1.getThumbnailUrl({ "height" : 85, "width" : 115, "crop" : "fill" })}}" />
+									<img src="{{asset.resource.getThumbnailUrl({ height : 360, width : 640, crop : 'pad', quality : 60 })}}" />
+									<img src="{{asset.resource.getThumbnailUrl({ height : 360, width : 640, crop : 'pad', quality : 60 })}}" />
+					<img src="{{asset.resource.getThumbnailUrl({ height : 125, width : 200, crop : 'fill' })}}">
+											<img src="{{asset.resource.getThumbnailUrl({ height : 250, width : 250, crop : 'fill', quality : 60 })}}" alt="{{-title}}" /> 
+								<img src="{{image.getThumbnailUrl({ width : 300, height : 220, crop : 'fill' })}}" alt="{{%title}}" />
+								<img src="{{image.getThumbnailUrl({ width : 300, height : 220, crop : 'fill' })}}" alt="{{%description}}" />
+								<img src="{{image.getThumbnailUrl({ width : 300, height : 220, crop : 'fill' })}}" alt="{{%description}}" />
+									<img class="main-image" src="{{~plugins.cloudinary.createResource({ imageUrl : data.image_large_url }).getThumbnailUrl({ height : 150, width : 300, crop : 'fill' })}}" alt="{{%~plugins.stringLib.substringOnWord(helpers.plugins.stringLib.stripHtml(data.message), 25)}}" />
+										<img src="{{~plugins.cloudinary.createResource({ imageUrl : data.avatar }).getThumbnailUrl({ height : 50, width : 50, crop : 'fill' })}}" alt="{{%name}}" />
+								<img src="{{image.getThumbnailUrl({ width : 320, height : 220, crop : 'fill' })}}" alt="{{%title}}" />
+										<img src="{{image.getThumbnailUrl({ height : 382, width : 402, crop : 'fill' })}}"/>
+					<img src="{{image.getThumbnailUrl({ height : 80, crop : "fill" })}}" />
+							<img alt="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 470, height: 470, crop : 'limit' })}}" />
+			<img alt="{{%title}}" title="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 220, height: 220, crop : 'fill' })}}" />		
+					<![CDATA[{{:image}}<img src="{{image.resource.getThumbnailUrl({ "width" : 800, "crop" : "fit" })}}">{{/image}}{{teaser}}]]>
+					<img src="{{image.resource.getThumbnailUrl({ "height" : 220, "width" : 220, "crop" : "fill" })}}"/>
+									<img src="{{~plugins.cloudinary.createResource({ raw : data.image.resource_raw }).getThumbnailUrl({ 'height' : 200, 'width' : 200, 'crop' : 'fill' })}}" alt="{{image.title}}" />
+					<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill" })}}"/>
+								<img src="{{image.resource.getThumbnailUrl({ "height" : 542, "width" : 962, "crop" : "fill" })}}"/>
+								<img src="{{image.resource.getThumbnailUrl({ "width" : 600, "height" : 500, "crop" : "fill" })}}"/>
+								<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill" })}}"/>
+			<img src="{{image.resource.getThumbnailUrl({ height : 180, width : 324, crop : 'fill', quality : 70 })}}"  alt="{{%image.alt_text}}"/>	
+					<img src="{{image.resource.getThumbnailUrl({ width : 335,  height : 335, crop : 'fill'})}}"/>
+							<img src="{{asset.resource.getThumbnailUrl({ height : 320, width : 320, crop : 'fill' })}}" alt="{{%asset.alt_text}}"/>
+							<img src="{{~var.placeholderAsset.resource.getThumbnailUrl({ height : 320, width : 320, crop : 'fill' })}}"/>
+					<img src="{{asset.resource.getThumbnailUrl({ height : 501, width : 530, crop : 'fill' })}}" alt="{{%asset.alt_text}}"/>
+					<img src="{{~var.placeholderAsset.resource.getThumbnailUrl({ height : 501, width : 530, crop : 'fill' })}}" alt="{{%asset.alt_text}}"/>
+							<img class="fill" src="{{asset.resource.getThumbnailUrl({ height : 182, width : 210, crop : 'fill' })}}" alt="{{%asset.alt_text}}"/>
+							<img class="fill" src="{{~var.placeholderAsset.resource.getThumbnailUrl({ height : 182, width : 210, crop : 'fill' })}}" alt="{{%asset.alt_text}}"/>
+			<img title="{{asset.credits}}" class="fill" src="{{asset.resource.getThumbnailUrl({ height : 663, width : 978, crop : 'fill' })}}" alt="{{%asset.alt_text}}"/>
+			<img class="fill" src="{{~var.placeholderAsset.resource.getThumbnailUrl({ height : 663, width : 978, crop : 'fill' })}}" alt="{{%asset.alt_text}}"/>
+				<img src="{{asset_2.resource.getThumbnailUrl({ height : 149, width : 149, crop : 'fill' })}}" alt="{{%asset.alt_text}}"/>
+									default : data.asset.resource.getThumbnailUrl({ height : 1000, width : 1920, crop : 'fill', quality: 50 }),
+										800 : data.asset.resource.getThumbnailUrl({ height : 583, width : 1120, crop : 'fill', quality: 50 }),
+										400 : data.asset.resource.getThumbnailUrl({ height : 375, width : 720, crop : 'fill', quality: 50 })
+								default : data.asset.resource.getThumbnailUrl({ height : 1000, width : 1920, crop : 'fill', quality: 50 }),
+									800 : data.asset.resource.getThumbnailUrl({ height : 583, width : 1120, crop : 'fill', quality: 50 }),
+									400 : data.asset.resource.getThumbnailUrl({ height : 375, width : 720, crop : 'fill', quality: 50 })
+								<img src="{{asset.resource.getThumbnailUrl({ height : 1000, width : 1920, crop : 'fill', quality: 10 })}}" title="{{asset.credits}}" class="fill" data-sizes="{{%~exec(JSON.stringify(helpers.var.sizes))}}" alt="{{%image.alt_text}}" />
+							default : helpers.var.placeholderAsset.resource.getThumbnailUrl({ height : 1000, width : 1920, crop : 'fill', quality: 50 }),
+								800 : helpers.var.placeholderAsset.resource.getThumbnailUrl({ height : 700, width : 1120, crop : 'fill', quality: 50 }),
+								400 : helpers.var.placeholderAsset.resource.getThumbnailUrl({ height : 600, width : 720, crop : 'fill', quality: 50 })
+							<img src="{{~var.placeholderAsset.resource.getThumbnailUrl({ height : 1000, width : 1920, crop : 'fill', quality: 10 })}}" title="{{asset.credits}}" class="fill" data-sizes="{{%~exec(JSON.stringify(helpers.var.sizes))}}" alt="{{%image.alt_text}}" />
+					default : data.asset.resource.getThumbnailUrl({ height : 1000, width : 1920, crop : 'fill', quality: 50 }),
+						800 : data.asset.resource.getThumbnailUrl({ height : 700, width : 1120, crop : 'fill', quality: 50 }),
+						400 : data.asset.resource.getThumbnailUrl({ height : 600, width : 720, crop : 'fill', quality: 50 })
+					default : data.asset.resource.getThumbnailUrl({ height : 1000, width : 1920, crop : 'fill', quality: 50 }),
+						800 : data.asset.resource.getThumbnailUrl({ height : 1000, width : 1120, crop : 'fill', quality: 50 }),
+						400 : data.asset.resource.getThumbnailUrl({ height : 1000, width : 720, crop : 'fill', quality: 50 })
+					default : helpers.var.placeholderAsset.resource.getThumbnailUrl({ height : 1000, width : 1920, crop : 'fill', quality: 50 }),
+						800 : helpers.var.placeholderAsset.resource.getThumbnailUrl({ height : 700, width : 1120, crop : 'fill', quality: 50 }),
+						400 : helpers.var.placeholderAsset.resource.getThumbnailUrl({ height : 600, width : 720, crop : 'fill', quality: 50 })
+				<img src="{{asset.resource.getThumbnailUrl({ height : 150, width : 170, crop : 'fill' })}}" alt="{{%asset.alt_text}}"/>
+				<img src="{{~var.placeholderAsset.resource.getThumbnailUrl({ height : 150, width : 170, crop : 'fill' })}}"/>
+						<div class="video-background" style="background-image: url('{{asset.resource.getThumbnailUrl({ height : 520, width : 1141, crop : 'fill' })}}');">
+						<div class="video-background" style="background-image: url('{{asset.resource.getThumbnailUrl({ height : 520, width : 1141, crop : 'fill' })}}')"></div>
+					<div class="video-background" style="background-image: url('{{~var.placeholderAsset.resource.getThumbnailUrl({ height : 520, width : 1141, crop : 'fill' })}}')"></div>
+				<img src="{{image.resource.getThumbnailUrl({ height : 30, width : 190 })}}" alt="{{%image.alt_text}}" />
+							<img src="{{asset.resource.getThumbnailUrl({ height : 150, width : 300, crop : 'fill' })}}"/>
+						<img title="{{asset.credits}}" class="fill" data-lazy="{{asset.resource.getThumbnailUrl({ quality : '60', height : 761, width : 1902, crop : 'fill' })}}" alt="{{%asset.alt_text}}"/>
+						<img class="fill" data-lazy="{{~var.placeholderAsset.resource.getThumbnailUrl({ quality : '60', height : 761, width : 1902, crop : 'fill' })}}" alt="{{%asset.alt_text}}"/>
+					<a class="cnt_lightbox {{:videoID}}mfp-iframe{{?}}mfp-image{{/}}" href="{{:videoID}}//youtube.com/watch/v={{videoID}}{{?}}{{image.getThumbnailUrl({})}}{{/}}">
+							<img src="{{image.getThumbnailUrl({ "width" : 535, "height" : 464, "crop" : "fill" })}}" alt="{{medianame}}" />
+		<div class="reveal-footer1 custom"  title="{{image.credits}}" style="background-image: url({{image.resource.getThumbnailUrl({ width : 1445, height : 750, quality: '40', crop : 'fill'})}})"></div>
+				src='{{image.resource.getThumbnailUrl({ width : 257, height : 266, crop : 'fill'})}}'  alt="{{%image.alt_text}}"
+							<img src='{{media.0.getThumbnailUrl({width : 150, height : 100, crop : 'fill'})}}'/>
+						<img src="{{primary_image.resource.getThumbnailUrl({ "height" : 492, "width" : 560, "crop" : "fill" })}}">
+						<img src="{{image.resource.1.getThumbnailUrl({ "height" : 85, "width" : 115, "crop" : "fill" })}}" />
+						<img src="{{asset.resource.getThumbnailUrl({ 'height' : 480, 'width' : 640, 'crop' : 'fill' })}}" />
+					<img src="{{asset.resource.getThumbnailUrl({ 'height' : 150, 'width' : 175, 'crop' : 'fill' })}}" />
+					<img src="{{asset.resource.getThumbnailUrl({ "height" : 150, "width" : 175, "crop" : "fill" })}}" alt="{{-title}}" /> 
+								<img src="{{image.getThumbnailUrl({ width : 300, height : 220, crop : 'fill' })}}" alt="{{%title}}" />
+								<img src="{{image.getThumbnailUrl({ width : 300, height : 220, crop : 'fill' })}}" alt="{{%description}}" />
+								<img src="{{image.getThumbnailUrl({ width : 300, height : 220, crop : 'fill' })}}" alt="{{%description}}" />
+									<img class="main-image" src="{{~plugins.cloudinary.createResource({ imageUrl : data.image_large_url }).getThumbnailUrl({ height : 150, width : 300, crop : 'fill' })}}" alt="{{%~plugins.stringLib.substringOnWord(helpers.plugins.stringLib.stripHtml(data.message), 25)}}" />
+										<img src="{{~plugins.cloudinary.createResource({ imageUrl : data.avatar }).getThumbnailUrl({ height : 50, width : 50, crop : 'fill' })}}" alt="{{%name}}" />
+								<img src="{{image.getThumbnailUrl({ width : 320, height : 220, crop : 'fill' })}}" alt="{{%title}}" />
+											<img src="{{image.getThumbnailUrl({ "height" : 600, "width" : 600, "crop" : "fill" })}}"/>
+							<img alt="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 570, height: 300, crop : 'fill' })}}" />
+			<img alt="{{%title}}" title="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 274, height: 274, crop : 'fill' })}}" />		
+	<img src="{{image.resource.getThumbnailUrl({width : 720, crop : 'fill'})}}" class="autoresp-hero">
+			<img class="section-image" src="{{image.resource.getThumbnailUrl({width : 125, height : 100, crop : 'fill'})}}">
+					<img src="{{~plugins.cloudinary.createResource({ imageUrl : data.mediaurl }).getThumbnailUrl({width : 150, height : 100, crop : 'fill'})}}">
+					<img src="{{getThumbnailUrl({width : 90, height : 60, crop : 'fill'})}}">
+					<![CDATA[{{:image}}<img src="{{image.resource.getThumbnailUrl({ "width" : 800, "crop" : "fit" })}}">{{/image}}{{description}}]]>
+					<![CDATA[{{:image}}<img src="{{image.resource.getThumbnailUrl({ "width" : 800, "crop" : "fit" })}}">{{/image}}{{description}}]]>
+						<img src="{{image.resource.getThumbnailUrl({ "height" : 220, "width" : 220, "crop" : "fill" })}}"/>
+					<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill" })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 250, "width" : 750, "crop" : "fill" })}}" title="{{%image.title}}" alt="{{%image.alt_text}}" />
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 250, "width" : 750, "crop" : "fill" })}}" title="{{%image.title}}" alt="{{%image.alt_text}}" />
+										<img class="authorImg" src="{{author.image.resource.getThumbnailUrl({ height: 100, width: 100, crop: 'fill' })}}" alt="" />
+											<img alt="{{image.title}}" src="{{image.resource.getThumbnailUrl({ "width" : 480, "height" : 160, "crop" : "fill", "quality" : 70 })}}"/>
+						<img src="{{image.resource.getThumbnailUrl({ "height" : 220, "width" : 220, "crop" : "fill" })}}"/>
+					<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 100, "width" : 100, "crop" : "fill" })}}"/>
+								<img src="{{image.resource.getThumbnailUrl({ "height" : 261, "width" : 340, "crop" : "fill" })}}" title="{{%image.title}}" alt="{{%image.alt_text}}" />
+						<img src="{{image.resource.getThumbnailUrl({ 'height' : 585, 'width' : 1920, 'crop' : 'fit' })}}" title="{{%image.title}}" alt="{{%image.alt_text}}" />
+									<img class="authorImg" src="{{author.image.resource.getThumbnailUrl({ height: 100, width: 100, crop: 'fill' })}}" alt="" />
+											<img alt="{{image.title}}" src="{{image.resource.getThumbnailUrl({ "width" : 900, "height" : 460, "crop" : "fill", "quality" : 70 })}}"/>
+					 data-lg-src="{{image.resource.getThumbnailUrl({ height : 785, width : 1903, crop : 'fill', quality : 50 })}}"
+					 data-md-src="{{image.resource.getThumbnailUrl({ height : 819, width : 1024, crop : 'fill', quality : 50 })}}"
+					 data-sm-src="{{image.resource.getThumbnailUrl({ height : 512, width : 640, crop : 'fill', quality : 50 })}}"
+					 style="background-image: url({{image.resource.getThumbnailUrl({ effect: "blur", height : 98, width : 300, crop : 'fill', quality : 75 })}})"
+								<img src="{{image.resource.getThumbnailUrl({ 'height' : 261, 'width' : 340, 'crop' : 'fit' })}}" title="{{%image.title}}" alt="{{%image.alt_text}}" />
+							<img src="{{logo.resource.getThumbnailUrl({ height : 90, width : 88, crop : 'fill', quality: 50 })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({ height : 198, width : 520, crop : 'fill', quality: 50 })}}"/>
+						<img src="{{logo.resource.getThumbnailUrl({ height : 40, width : 40, crop : 'fill', quality: 50 })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({ height : 327, width : 320, crop : 'fill', quality: 50 })}}"/>
+	<img src="{{image.resource.getThumbnailUrl({ height : 24, width : 24, crop : 'limit', quality: 50 })}}"/>
+				default : helpers.var.resource.getThumbnailUrl({ height : 1170, width : 2562, crop : 'fit', quality: 50 }),
+					1024 : helpers.var.resource.getThumbnailUrl({ height : 585, width : 1281, crop : 'fit', quality: 50 }),
+					641 : helpers.var.resource.getThumbnailUrl({ height : 400, width : 640, crop : 'fit', quality: 50 })
+					default : helpers.var.resource.getThumbnailUrl({ height : 1170, width : 2562, crop : 'fit', quality: 50 }),
+						1024 : helpers.var.mobile_resource.getThumbnailUrl({ height : 585, width : 1281, crop : 'fit', quality: 50 }),
+						641 : helpers.var.mobile_resource.getThumbnailUrl({ height : 400, width : 640, crop : 'fit', quality: 50 })
+							data-large-src="{{~var.resource.getThumbnailUrl({ height : 600, width : 1280, crop : 'fill', quality : 50 })}}"
+								data-medium-src="{{~var.mobile_resource.getThumbnailUrl({ height : 600, width : 1023, crop : 'fill', quality : 50 })}}"
+								data-small-src="{{~var.mobile_resource.getThumbnailUrl({ height : 400, width : 640, crop : 'fill', quality : 50 })}}"
+								data-medium-src="{{~var.resource.getThumbnailUrl({ height : 600, width : 1023, crop : 'fill', quality : 50 })}}"
+								data-small-src="{{~var.resource.getThumbnailUrl({ height : 400, width : 640, crop : 'fill', quality : 50 })}}"
+					default : helpers.var.resource.getThumbnailUrl({ height : 480, width : 1280, crop : 'fill', quality: 50 }),
+						1024 : helpers.var.resource.getThumbnailUrl({ height : 288, width : 1024, crop : 'fill', quality: 50 }),
+						641 : helpers.var.resource.getThumbnailUrl({ height : 360, width : 640, crop : 'fill', quality: 50 })
+						default : helpers.var.resource.getThumbnailUrl({ height : 480, width : 1280, crop : 'fill', quality: 50 }),
+							1024 : helpers.var.mobile_resource.getThumbnailUrl({ height : 288, width : 1024, crop : 'fill', quality: 50 }),
+							641 : helpers.var.mobile_resource.getThumbnailUrl({ height : 360, width : 640, crop : 'fill', quality: 50 })
+									default : helpers.var.resource.getThumbnailUrl({ height : 1080, width : 1920, crop : 'fill', quality: 50 }),
+										1025 : helpers.var.resource.getThumbnailUrl({ height : 576, width : 1024, crop : 'fill', quality: 50 }),
+										641 : helpers.var.mobileImage.getThumbnailUrl({ height : 360, width : 640, crop : 'fill', quality: 50 })
+									default : helpers.var.resource.getThumbnailUrl({ height : 1080, width : 1920, crop : 'fill', quality: 50 }),
+										1025 : helpers.var.resource.getThumbnailUrl({ height : 576, width : 1024, crop : 'fill', quality: 50 }),
+										641 : helpers.var.mobileCrop.getThumbnailUrl({ height : 360, width : 640, crop : 'fill', quality: 50 })
+								default : helpers.var.resource.getThumbnailUrl({ height : 1080, width : 1920, crop : 'fill', quality: 50 }),
+									1025 : helpers.var.resource.getThumbnailUrl({ height : 576, width : 1024, crop : 'fill', quality: 50 }),
+									641 : helpers.var.mobileCrop.getThumbnailUrl({ height : 360, width : 640, crop : 'fill', quality: 50 })
+						<img class="left" src="{{image.resource.getThumbnailUrl({ height : 293, width : 440, crop : 'fill', quality: 50 })}}"/>
+							<img class="left" src="{{image.resource.getThumbnailUrl({ height : 160, width : 240, crop : 'fill', quality: 50 })}}"/>
+				<img src="{{image.resource.getThumbnailUrl({ height : 160, width : 240, crop : 'fit', quality: 50 })}}"/>
+					 data-lg-src="{{image.resource.getThumbnailUrl({ height : 420, width : 1280, crop : 'fill', quality : 50 })}}"
+					 data-md-src="{{image.resource.getThumbnailUrl({ height : 336, width : 1024, crop : 'fill', quality : 50 })}}"
+					 data-sm-src="{{image.resource.getThumbnailUrl({ height : 210, width : 640, crop : 'fill', quality : 50 })}}"
+					 style="background-image: url({{image.resource.getThumbnailUrl({ effect: "blur", height : 98, width : 300, crop : 'fill', quality : 75 })}})"
+				<img src="{{image.resource.getThumbnailUrl({ height : 395, width : 352, crop : 'fill', quality: 50 })}}"/>
+					<img src="{{image.resource.getThumbnailUrl({ height : 129, width : 100, crop : 'fill', quality: 50 })}}"/>
+								<img src="{{image.resource.getThumbnailUrl({ height : 140, width : 140, crop : 'fill', quality: 50 })}}" onerror="this.onerror=null; this.src=/includes/public/assets/mediagallery/placeholder.jpg;" alt="{{title}}" {{:image.videoID}}sv-videoid="{{image.videoid}}" sv-videotype="{{image.videotype}}" src="{{image.resource_raw.secure_url}}"{{/image.videoID}}>
+					<img class="videoSlide galleryModal" rel="shadowbox[gallery]" sv-videoid="{{image.videoid}}" sv-videotype="{{image.videotype}}" src="{{image.resource.getThumbnailUrl({ height : 440, width : 440, crop : 'fill', quality: 50 })}}" alt="{{image.title}}"/>
+				<a class="galleryModal" href="{{:image}}{{image.resource.getThumbnailUrl({ height : 440, width : 440, crop : 'fill', quality: 50 })}}{{/image}}{{!image}}{{getUrl()}}{{/image}}" rel="shadowbox[gallery]">
+					<img src="{{image.resource.getThumbnailUrl({ height : 440, width : 440, crop : 'fill', quality: 50 })}}" alt="{{medianame}}"/>
+					<img src="{{image.resource.getThumbnailUrl({ height : 440, width : 440, crop : 'fill' })}}" onerror="this.onerror=null; this.src=/includes/public/assets/mediagallery/placeholder-large.jpg;" alt="{{title}}">
+                    <img src="{{image.resource.getThumbnailUrl({ width : 366, height : 160, crop : 'fit' })}}">
+            {{:image}}<a href="{{url}}" data-listing-url{{>quickViewLink}}><img src="{{image.resource.getThumbnailUrl({ width : 240, height : 160, crop : 'fit' })}}"></a>{{/image}}
+							<img src="{{logo.resource.getThumbnailUrl({ height : 90, width : 88, crop : 'fill', quality: 50 })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({quality: 50, height : 250, width : 640, crop : 'fill', quality: 50  })}}"/>
+						<img src="{{logo.resource.getThumbnailUrl({ height : 40, width : 40, crop : 'fill', quality: 50 })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({ height : 463, width : 273, crop : 'fill' })}}"/>
+									<img src="{{image.resource.getThumbnailUrl({ height : 293, width : 440, crop : 'pad', quality: 50 })}}"/>
+									<img src="{{~plugins.cloudinary.createResource({ imageUrl : data.listingImage }).getThumbnailUrl({ height : 293, width : 440, crop : 'pad', quality: 50 })}}"/>
+										<img src="{{~plugins.cloudinary.createResource({ imageUrl : data.primary_image_url }).getThumbnailUrl({ height : 293, width : 440, crop : 'pad', quality: 50 })}}"/>
+						<img class="left" src="{{image.resource.getThumbnailUrl({ height : 80, width : 120, crop : 'fit', quality: 50 })}}"/>
+						<img class="left" src="{{image.resource.getThumbnailUrl({ height : 160, width : 240, crop : 'fit', quality: 50 })}}"/>
+					<img class="right" src="{{image.resource.getThumbnailUrl({ height : 160, width : 240, crop : 'fit', quality: 50 })}}"/>
+								<img class="authorImg left" src="{{author.image.resource.getThumbnailUrl({ height : 35, width : 35, crop : 'fill', quality: 50 })}}">
+                    <a href="{{url}}"><img src="{{image.resource.getThumbnailUrl({ height : 160, width : 240, crop : 'fit', quality: 50 })}}"></a>
+                        <img src="{{asset.resource.getThumbnailUrl({ height : 136, width : 240, crop : 'fill', quality: 50 })}}">
+			<img src="{{image1.resource.getThumbnailUrl({ height : 785, width : 1903, crop : 'fit', quality : 50 })}}">
+				<img src="{{image1.resource.getThumbnailUrl({ height : 529, width : 940, crop : 'fit', quality : 50 })}}">
+					<img src="{{image2.resource.getThumbnailUrl({ height : 529, width : 940, crop : 'fit', quality : 50 })}}">
+<div class="blogsubscription" style="background-image: url({{image.resource.getThumbnailUrl({ height : 360, width : 1280, crop : 'fill' })}})">
+					<img class="thumb" src="{{media.0.getThumbnailUrl({ "height" : 218, "width" : 328, "crop" : "lpad" })}}">
+							<img src="{{image.getThumbnailUrl({ 'width' : 340, 'height' : 227, 'crop' : 'pad' })}}" alt="{{medianame}}" />
+				<img class="listImage" src="{{primary_image.getThumbnailUrl({ "height" : 160, "width" : 240, "crop" : "lpad" })}}" />
+						<img src="{{image.resource.1.getThumbnailUrl({ "height" : 85, "width" : 115, "crop" : "lpad" })}}" />
+									<img class="thumb" src="{{primary_image.resource.getThumbnailUrl({ "height" : 218, "width" : 328, "crop" : "lpad" })}}">
+									<img class="thumb" src="{{primary_image.resource.getThumbnailUrl({ "height" : 218, "width" : 328, "crop" : "lpad" })}}">
+						<img src="{{asset.resource.getThumbnailUrl({ 'height' : 480, 'width' : 640, 'crop' : 'fill' })}}" />
+					<img src="{{asset.resource.getThumbnailUrl({ 'height' : 150, 'width' : 200, 'crop' : 'fill' })}}" />
+					<img src="{{asset.resource.getThumbnailUrl({ "height" : 150, "width" : 175, "crop" : "fill" })}}" alt="{{-title}}" /> 
+				<img class="thumb" src="{{~var.placeholder.getThumbnailUrl({ height : 254, width : 381, crop : 'fill', quality : 50 })}}" />
+					<img src="{{image.getThumbnailUrl({ height : 80, crop : "fill" })}}" />
+							<img alt="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 470, height: 470, crop : 'limit' })}}" />
+			<img alt="{{%title}}" title="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 220, height: 220, crop : 'fill' })}}" />		
+					<![CDATA[{{:image}}<img src="{{image.resource.getThumbnailUrl({ "width" : 800, "crop" : "fit" })}}">{{/image}}{{teaser}}]]>
+					<![CDATA[{{:image}}<img src="{{image.resource.getThumbnailUrl({ "width" : 800, "crop" : "fit" })}}">{{/image}}{{teaser}}]]>
+						<img src="{{image.resource.getThumbnailUrl({ "height" : 220, "width" : 220, "crop" : "fill" })}}"/>
+					<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill" })}}"/>
+								<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill" })}}"/>
+					<img src="{{image.resource.getThumbnailUrl({ "height" : 220, "width" : 220, "crop" : "fill" })}}"/>
+                      <img src="{{~plugins.cloudinary.createResource({ raw : data.image.resource_raw }).getThumbnailUrl({ 'height' : 200, 'width' : 200, 'crop' : 'fill' })}}" alt="{{image.title}}" />
+					<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill" })}}"/>
+              <img src="{{image.resource.getThumbnailUrl({ "height" : 300, "width" : 760, "crop" : "fill" })}}"/>
+              <img src="{{image.resource.getThumbnailUrl({ "height" : 300, "width" : 760, "crop" : "fill" })}}"/>
+            <img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill" })}}"/>
+                  <img src="{{asset.resource.getThumbnailUrl({ height : 560, width : 1280, crop : 'fill', quality : 60 })}}" class="img-responsive img-fullwidth hide-for-small-only" alt="{{asset.alt_text}}"/>
+                    <img src="{{asset_mobile.resource.getThumbnailUrl({ height : 249, width : 320, crop : 'fill', quality : 60 })}}" class="img-responsive img-fullwidth show-for-small-only" alt="{{asset.alt_text}}"/>
+                    <img src="{{asset.resource.getThumbnailUrl({ height : 249, width : 320, crop : 'fill', quality : 60 })}}" class="img-responsive img-fullwidth show-for-small-only" alt="{{asset.alt_text}}"/>
+                <img src="{{asset.resource.getThumbnailUrl({ height : 560, width : 1280, crop : 'fill', quality : 60 })}}" class="img-responsive img-fullwidth hide-for-small-only" alt="{{asset.alt_text}}"/>
+                  <img src="{{asset_mobile.resource.getThumbnailUrl({ height : 249, width : 320, crop : 'fill', quality : 60 })}}" class="img-responsive img-fullwidth show-for-small-only" alt="{{asset.alt_text}}"/>
+                  <img src="{{asset.resource.getThumbnailUrl({ height : 249, width : 320, crop : 'fill', quality : 60 })}}" class="img-responsive img-fullwidth show-for-small-only" alt="{{asset.alt_text}}"/>
+				<img src="{{image.resource.getThumbnailUrl({ height : 30, width : 190 })}}" alt="{{%image.alt_text}}" />
+							<img src="{{asset.resource.getThumbnailUrl({ height : 150, width : 300, crop : 'fill' })}}"/>
+							<img src='{{media.0.getThumbnailUrl({width : 150, height : 100, crop : 'fill'})}}'/>
+				var src = resource.getThumbnailUrl({ width : 410, height : 273, crop : "fill", quality : 50 });
+						<img src="{{image.resource.1.getThumbnailUrl({ "height" : 85, "width" : 115, "crop" : "fill" })}}" />
+						var src = resource.getThumbnailUrl({ width : 410, height : 273, crop : "fill", quality : 50 });
+									<img data-lazy="{{asset.resource.getThumbnailUrl({ height : 360, width : 640, crop : 'pad', quality : 60 })}}" data-sv-slide-image>
+					<img data-lazy="{{asset.resource.getThumbnailUrl({ height : 125, width : 200, crop : 'fill' })}}">
+										<img src="{{asset.resource.getThumbnailUrl({ height : 420, width : 420, crop : 'fill', quality : 60 })}}" alt="{{-title}}"> 
+			<img src="{{~plugins.cloudinary.createResource({ imageUrl : data.mediaurl }).getThumbnailUrl({ width : 300 })}}" class="media">
+					var src = resource.getThumbnailUrl({ width : 410, height : 273, crop : "fill", quality : 50 });
+								<img src="{{image.getThumbnailUrl({ width : 300, height : 220, crop : 'fill' })}}" alt="{{%title}}" />
+								<img src="{{image.getThumbnailUrl({ width : 300, height : 220, crop : 'fill' })}}" alt="{{%description}}" />
+								<img src="{{image.getThumbnailUrl({ width : 300, height : 220, crop : 'fill' })}}" alt="{{%description}}" />
+									<img class="main-image" src="{{~plugins.cloudinary.createResource({ imageUrl : data.image_large_url }).getThumbnailUrl({ height : 150, width : 300, crop : 'fill' })}}" alt="{{%~plugins.stringLib.substringOnWord(helpers.plugins.stringLib.stripHtml(data.message), 25)}}" />
+										<img src="{{~plugins.cloudinary.createResource({ imageUrl : data.avatar }).getThumbnailUrl({ height : 50, width : 50, crop : 'fill' })}}" alt="{{%name}}" />
+								<img src="{{image.getThumbnailUrl({ width : 320, height : 220, crop : 'fill' })}}" alt="{{%title}}" />
+										<img src="{{image.getThumbnailUrl({ width : 100 })}}"/>
+					<img src="{{image.getThumbnailUrl({ height : 80, crop : "fill" })}}" />
+							<img alt="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 470, height: 470, crop : 'limit' })}}" />
+			<img alt="{{%title}}" title="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 220, height: 220, crop : 'fill' })}}" />		
+						<img src="{{image.resource.getThumbnailUrl({ "height" : 220, "width" : 220, "crop" : "fill", "quality" : 65 })}}"/>
+					<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill", "quality" : 65 })}}"/>
+								<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill", "quality" : 65 })}}"/>
+					<img src="{{image.resource.getThumbnailUrl({ "height" : 220, "width" : 220, "crop" : "fill" })}}"/>
+										<img src="{{~plugins.cloudinary.createResource({ raw : data.image.resource_raw }).getThumbnailUrl({ 'height' : 200, 'width' : 200, 'crop' : 'fill' })}}" alt="{{image.title}}" />
+					<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill" })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 320, "width" : 550, "crop" : "fill" })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 320, "width" : 550, "crop" : "fill" })}}"/>
+								<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill" })}}"/>
+						{{~setVar('mobileImgSrc', data.imagemobile.resource.getThumbnailUrl({ "width" :  767, "height" : 767, crop : 'fill', quality : 65 }))}}
+						{{~setVar('mobileImgSrc', data.imagemobile.resource.getThumbnailUrl({ "width" :  731, "height" : 382, crop : 'fill', quality : 65 }))}}
+						<source srcset="{{image.resource.getThumbnailUrl({ height : 627, width : 1200, crop : 'fill', quality : 65 })}}" media="(min-width: 1025px)">
+						<source srcset="{{image.resource.getThumbnailUrl({ height : 516, width : 988, crop : 'fill', quality : 65 })}}" media="(min-width: 768px)">
+						srcset="{{imagemobile.resource.getThumbnailUrl({ width : 767, crop : 'fill', quality : 5 })}}" alt="{{:imagemobile.alt_text_raw}}{{%imagemobile.alt_text_raw}}{{?:imagemobile.title}}{{%imagemobile.title}}{{?:title}}{{%title}}{{/}}">
+							<source srcset="{{image.resource.getThumbnailUrl({ width : 1600, crop : 'fill', quality : 65 })}}" media="(min-width: 1025px)">
+							<source srcset="{{image.resource.getThumbnailUrl({ width : 1024, crop : 'fill', quality : 65 })}}" media="(min-width: 768px)">
+							<source srcset="{{imagemobile.resource.getThumbnailUrl({ height : 1270, width : 767, crop : 'fill', quality : 65 })}}" media="(max-width: 767px)">
+							srcset="{{imagemobile.resource.getThumbnailUrl({ height : 1270, width : 767, crop : 'fill', quality : 5 })}}" alt="{{:imagemobile.alt_text_raw}}{{%imagemobile.alt_text_raw}}{{?:imagemobile.title}}{{%imagemobile.title}}{{?:title}}{{%title}}{{/}}">
+						<source srcset="{{image.resource.getThumbnailUrl({ height : 1000, width : 1600, crop : 'fill', quality : 65 })}}" media="(min-width: 1025px)">
+						<source srcset="{{image.resource.getThumbnailUrl({ height : 655, width : 1024, crop : 'fill', quality : 65 })}}" media="(min-width: 641px)">
+						<source srcset="{{imagemobile.resource.getThumbnailUrl({ height : 970, width : 640, crop : 'fill', quality : 65 })}}" media="(max-width: 640px)">
+						srcset="{{imagemobile.resource.getThumbnailUrl({ height : 970, width : 640, crop : 'fill', quality : 5 })}}" alt="{{:imagemobile.alt_text_raw}}{{%imagemobile.alt_text_raw}}{{?:imagemobile.title}}{{%imagemobile.title}}{{?:title}}{{%title}}{{/}}">
+						<source srcset="{{image.resource.getThumbnailUrl({ height : 1000, width : 1600, crop : 'fill', quality : 65 })}}" media="(min-width: 1025px)">
+						<source srcset="{{image.resource.getThumbnailUrl({ height : 655, width : 1024, crop : 'fill', quality : 65 })}}" media="(min-width: 641px)">
+						<source srcset="{{imagemobile.resource.getThumbnailUrl({ height : 970, width : 640, crop : 'fill', quality : 65 })}}" media="(max-width: 640px)">
+						srcset="{{imagemobile.resource.getThumbnailUrl({ height : 970, width : 640, crop : 'fill', quality : 5 })}}" alt="{{:imagemobile.alt_text_raw}}{{%imagemobile.alt_text_raw}}{{?:imagemobile.title}}{{%imagemobile.title}}{{?:title}}{{%title}}{{/}}">
+				<div data-sv-image-mobile-placeholder class="image show-for-small-only" style="background-image:url({{imagemobile.resource.getThumbnailUrl({ width : 25, height : 25, crop : 'fill', quality: 50})}})"></div>
+				<div data-sv-image class="image hide-for-small-only" style="background-image:url({{image.resource.getThumbnailUrl({ width : 25, height : 25, crop : 'fill', quality: 50})}})">
+				<img class="featured" src="{{image.resource.getThumbnailUrl({ "height": 100, "crop" : "fit", "quality" : 65 })}}" alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}">
+					<img src="{{~plugins.cloudinary.createResource({ raw : data.asset.resource_raw }).getThumbnailUrl({ 'height' : 443, 'width' : 443, 'crop' : 'fill' })}}" alt="{{asset.title}}" data-credits="{{asset.credits}}">
+			{{:asset}}style="background-image: url({{~plugins.cloudinary.createResource({ raw : data.asset.resource_raw }).getThumbnailUrl({crop : "fill" })}})"{{/}}>
+						data-lg-src="{{primaryimage.resource.getThumbnailUrl({ height : helpers.var.lgHeight, width : helpers.var.lgWidth, crop : 'fill', quality : 64 })}}"
+						data-md-src="{{primaryimage.resource.getThumbnailUrl({ height : helpers.var.mdHeight, width : helpers.var.mdWidth, crop : 'fill', quality : 64 })}}"
+						data-sm-src="{{primaryimage.resource.getThumbnailUrl({ height : helpers.var.smHeight, width : helpers.var.smWidth, crop : 'fill', quality : 64 })}}"/>
+						data-lg-src="{{image.resource.getThumbnailUrl({ height : helpers.var.lgHeight, width : helpers.var.lgWidth, crop : 'fill', quality : 64 })}}"
+						data-md-src="{{image.resource.getThumbnailUrl({ height : helpers.var.mdHeight, width : helpers.var.mdWidth, crop : 'fill', quality : 64 })}}"
+						data-sm-src="{{image.resource.getThumbnailUrl({ height : helpers.var.smHeight, width : helpers.var.smWidth, crop : 'fill', quality : 64 })}}"/>
+							<img alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" data-src="{{image.resource.getThumbnailUrl({ height : 582, width : 1164, crop : 'fill', quality : 80 })}}"/>
+							<a  href="//www.pinterest.com/pin/create/button/?media={{image.resource.getThumbnailUrl({ height : 575, width : 1200, crop : 'fill', quality : 64 })}}&description={{title}}" target="_blank" class="pinterest link-item" data-pin-do="buttonPin" data-pin-config="none"></a>
+						<a  href="//www.pinterest.com/pin/create/button/?media={{image.resource.getThumbnailUrl({ height : 575, width : 1200, crop : 'fill', quality : 64 })}}&description={{title}}" target="_blank" class="pinterest link-item" data-pin-do="buttonPin" data-pin-config="none"></a>
+							data-lg-src="{{primaryimage.resource.getThumbnailUrl({ height : helpers.var.lgHeight, width : helpers.var.lgWidth, crop : 'fill', quality : 64 })}}"
+							data-md-src="{{primaryimage.resource.getThumbnailUrl({ height : helpers.var.mdHeight, width : helpers.var.mdWidth, crop : 'fill', quality : 64 })}}"
+							data-sm-src="{{primaryimage.resource.getThumbnailUrl({ height : helpers.var.smHeight, width : helpers.var.smWidth, crop : 'fill', quality : 64 })}}"/>
+							data-lg-src="{{image.resource.getThumbnailUrl({ height : helpers.var.lgHeight, width : helpers.var.lgWidth, crop : 'fill', quality : 64 })}}"
+							data-md-src="{{image.resource.getThumbnailUrl({ height : helpers.var.mdHeight, width : helpers.var.mdWidth, crop : 'fill', quality : 64 })}}"
+							data-sm-src="{{image.resource.getThumbnailUrl({ height : helpers.var.smHeight, width : helpers.var.smWidth, crop : 'fill', quality : 64 })}}"/>
+								<img alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" data-src="{{image.resource.getThumbnailUrl({ height : 582, width : 1164, crop : 'fill', quality : 80 })}}"/>
+							<a  href="//www.pinterest.com/pin/create/button/?media={{image.resource.getThumbnailUrl({ height : 575, width : 1200, crop : 'fill', quality : 64 })}}&description={{listingtitle}}" target="_blank" class="pinterest link-item" data-pin-do="buttonPin" data-pin-config="none"></a>
+						data-lg-src="{{primaryimage.resource.getThumbnailUrl({ height : helpers.var.lgHeight, width : helpers.var.lgWidth, crop : 'fill', quality : 64 })}}"
+						data-md-src="{{primaryimage.resource.getThumbnailUrl({ height : helpers.var.mdHeight, width : helpers.var.mdWidth, crop : 'fill', quality : 64 })}}"
+						data-sm-src="{{primaryimage.resource.getThumbnailUrl({ height : helpers.var.smHeight, width : helpers.var.smWidth, crop : 'fill', quality : 64 })}}"/>
+						data-lg-src="{{image.resource.getThumbnailUrl({ height : helpers.var.lgHeight, width : helpers.var.lgWidth, crop : 'fill', quality : 64 })}}"
+						data-md-src="{{image.resource.getThumbnailUrl({ height : helpers.var.mdHeight, width : helpers.var.mdWidth, crop : 'fill', quality : 64 })}}"
+						data-sm-src="{{image.resource.getThumbnailUrl({ height : helpers.var.smHeight, width : helpers.var.smWidth, crop : 'fill', quality : 64 })}}"/>
+							<img alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" data-src="{{image.resource.getThumbnailUrl({ height : 582, width : 1164, crop : 'fill', quality : 80 })}}"/>
+						data-lg-src="{{primaryimage.resource.getThumbnailUrl({ height : helpers.var.lgHeight, width : helpers.var.lgWidth, crop : 'fill', quality : 64 })}}"
+						data-md-src="{{primaryimage.resource.getThumbnailUrl({ height : helpers.var.mdHeight, width : helpers.var.mdWidth, crop : 'fill', quality : 64 })}}"
+						data-sm-src="{{primaryimage.resource.getThumbnailUrl({ height : helpers.var.smHeight, width : helpers.var.smWidth, crop : 'fill', quality : 64 })}}"/>
+						data-lg-src="{{image.resource.getThumbnailUrl({ height : helpers.var.lgHeight, width : helpers.var.lgWidth, crop : 'fill', quality : 64 })}}"
+						data-md-src="{{image.resource.getThumbnailUrl({ height : helpers.var.mdHeight, width : helpers.var.mdWidth, crop : 'fill', quality : 64 })}}"
+						data-sm-src="{{image.resource.getThumbnailUrl({ height : helpers.var.smHeight, width : helpers.var.smWidth, crop : 'fill', quality : 64 })}}"/>
+							<img alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" data-src="{{image.resource.getThumbnailUrl({ height : 582, width : 1164, crop : 'fill', quality : 80 })}}"/>
+							<a  href="//www.pinterest.com/pin/create/button/?media={{image.resource.getThumbnailUrl({ height : 575, width : 1200, crop : 'fill', quality : 64 })}}&description={{title}}" target="_blank" class="pinterest link-item" data-pin-do="buttonPin" data-pin-config="none"></a>
+					<img src="{{image.resource.getThumbnailUrl({ "width": 273, "height": 150, "crop" : "fill", "quality" : 65 })}}" alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}">
+		var src = data.image.resource.getThumbnailUrl({ "width" :  568, "height" : 670, crop : 'fill', quality : 65 });
+		var src = data.image.resource.getThumbnailUrl({ quality : 65, width :  708, height : 861, crop : 'fill' });
+			var src = data.image.resource.getThumbnailUrl({ quality : 65, width :  708, height : 479, crop : 'fill' });
+						<img data-sv-lazyload-src="{{asset.resource.getThumbnailUrl({ "quality" : 25, "width": helpers.var.defaultImageSize.width, "height": helpers.var.defaultImageSize.height, "crop" : "fill" })}}" alt="{{:asset.alt_text_raw}}{{%asset.alt_text_raw}}{{?:asset.title}}{{%asset.title}}{{?:title}}{{%title}}{{/}}"
+							data-src-{{name}}="{{~var.imageResource.getThumbnailUrl({ width: data.width, height: data.height, crop: "fill" })}}"
+					<img alt="{{asset.alt_text}}" src="{{asset.resource.getThumbnailUrl({ width : 175, height : 190, crop : 'fill' })}}" />
+							<source data-sv-lazyload-srcset="{{image.resource.getThumbnailUrl({ height : helpers.var.lgHeight,  width : 1600, crop : 'fill', quality : 65, sv : { gravity : 'focalPoint' } })}}" media="(min-width: 1025px)">
+							<source data-sv-lazyload-srcset="{{image.resource.getThumbnailUrl({ height : helpers.var.mdHeight, width : 1024, crop : 'fill', quality : 65, sv : { gravity : 'focalPoint' } })}}" media="(min-width: 768px)">
+							<source data-sv-lazyload-srcset="{{imagemobile.resource.getThumbnailUrl({ height : 1270, width : 767, crop : 'fill', quality : 65, sv : { gravity : 'focalPoint' } })}}" media="(max-width: 767px)">
+							data-sv-lazyload-srcset="{{imagemobile.resource.getThumbnailUrl({ height : 1270, width : 767, crop : 'fill', quality : 5, sv : { gravity : 'focalPoint' } })}}"
+							data-src="{{image.resource.getThumbnailUrl({ height : 480, width : 708, crop : 'fill', quality : 65 })}}"
+							data-md-src="{{image.resource.getThumbnailUrl({ height : 480, width : 879, crop : 'fill', quality : 65 })}}"
+							data-sm-src="{{image.resource.getThumbnailUrl({ height : 548, width : 529, crop : 'fill', quality : 65 })}}"
+							<source srcset="{{image.resource.getThumbnailUrl({ height : 1000, width : 1600, crop : 'fill', quality : 65 })}}" media="(min-width: 1025px)">
+							<source srcset="{{image.resource.getThumbnailUrl({ height : 655, width : 1024, crop : 'fill', quality : 65 })}}" media="(min-width: 641px)">
+							<source srcset="{{imagemobile.resource.getThumbnailUrl({ height : 970, width : 640, crop : 'fill', quality : 65 })}}" media="(max-width: 640px)">
+							srcset="{{imagemobile.resource.getThumbnailUrl({ height : 970, width : 640, crop : 'fill', quality : 5 })}}" alt="{{:imagemobile.alt_text_raw}}{{%imagemobile.alt_text_raw}}{{?:imagemobile.title}}{{%imagemobile.title}}{{?:title}}{{%title}}{{/}}">
+							<source srcset="{{image.resource.getThumbnailUrl({ height : helpers.var.lgHeight,  width : 1600, crop : 'fill', quality : 65 })}}" media="(min-width: 1025px)">
+							<source srcset="{{image.resource.getThumbnailUrl({ height : helpers.var.mdHeight, width : 1024, crop : 'fill', quality : 65 })}}" media="(min-width: 768px)">
+							<source srcset="{{imagemobile.resource.getThumbnailUrl({ height : 1270, width : 767, crop : 'fill', quality : 65 })}}" media="(max-width: 767px)">
+							srcset="{{imagemobile.resource.getThumbnailUrl({ height : 1270, width : 767, crop : 'fill', quality : 5 })}}" alt="{{:imagemobile.alt_text_raw}}{{%imagemobile.alt_text_raw}}{{?:imagemobile.title}}{{%imagemobile.title}}{{?:title}}{{%title}}{{/}}">
+											<img src="{{logo.resource.getThumbnailUrl({ width : 200, crop : 'limit', quality : 65 })}}">
+											<img class="small-partner-logo" src="{{logo.resource.getThumbnailUrl({ height : 55 })}}">
+											<img src="{{image.resource.getThumbnailUrl({ height : 59, width : 100, crop : 'fill', quality : 65 })}}"
+				<source srcset="{{image.resource.getThumbnailUrl({ height : 1000, width : 1600, crop : 'fill', quality : 65, sv : { gravity : 'focalPoint' } })}}" media="(min-width: 1025px)">
+				<source srcset="{{image.resource.getThumbnailUrl({ height : 655, width : 1024, crop : 'fill', quality : 65, sv : { gravity : 'focalPoint' } })}}" media="(min-width: 641px)">
+				<source srcset="{{imagemobile.resource.getThumbnailUrl({ height : 970, width : 640, crop : 'fill', quality : 65, sv : { gravity : 'focalPoint' } })}}" media="(max-width: 640px)">
+				srcset="{{imagemobile.resource.getThumbnailUrl({ height : 970, width : 640, crop : 'fill', quality : 5, sv : { gravity : "focalPoint" } })}}" alt="{{:imagemobile.alt_text_raw}}{{%imagemobile.alt_text_raw}}{{?:imagemobile.title}}{{%imagemobile.title}}{{?:title}}{{%title}}{{/}}">
+						<img src="{{~var.graphic.resource.getThumbnailUrl({ height : 100, quality : 99 })}}">
+			var src = data.image.resource.getThumbnailUrl({ "width" :  280, "height" : 331, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width": 1200, "height": 702, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width" :  640, "height" : 374, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width" :  1200, "height" : 1800, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width" : 587, "height" : 881, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width" :  1200, "height" : 1668, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width" :  587, "height" : 816, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width" :  730, "height" : 888, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width" :  730, "height" : 730, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width" :  280, "height" : 280, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width" :  730, "height" : 494, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width" :  280, "height" : 192, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width" :  730, "height" : 349, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width" :  640, "height" : 306, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width" :  343, "height" : 411, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width" :  343, "height" : 349, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width" :  215, "height" : 220, crop : 'fill', quality : 65 });
+				var src = data.image.resource.getThumbnailUrl({ "width" :  640, "height" : 640, crop : 'fill', quality : 65 });
+						var src = data.image.resource.getThumbnailUrl({ "width" :  640, "height" : 292, crop : 'fill', quality : 65 });
+							var src = data.image.resource.getThumbnailUrl({ "width" :  640, "height" : 640, crop : 'fill', quality : 65 });
+						data-lg-src="{{image.resource.getThumbnailUrl({ height : 730, width : 1600, crop : 'fill', quality : 65 })}}"
+						data-md-src="{{image.resource.getThumbnailUrl({ height : 467, width : 1024, crop : 'fill', quality : 65 })}}"
+								 data-lg-src="{{image.resource.getThumbnailUrl({width :  215,height : 220,crop : 'fill', quality : 65 })}}"
+								 data-md-src="{{image.resource.getThumbnailUrl({ width :  464,height : 378,crop : 'fill', quality : 65 })}}"
+								 data-sm-src="{{image.resource.getThumbnailUrl({ width :  250,height : 166,crop : 'fill', quality : 65 })}}"/>
+										<a  href="//www.pinterest.com/pin/create/button/?media={{image.resource.getThumbnailUrl({width :  215,height : 220,crop : 'fill', quality : 65 })}}&description={{title}}" target="_blank" class="pinterest link-item" data-pin-do="buttonPin" data-pin-config="none"></a>
+		data-lg-src="{{image.resource.getThumbnailUrl({ height : 730, width : 1600, crop : 'fill', quality : 65 })}}"
+		data-md-src="{{image.resource.getThumbnailUrl({ height : 467, width : 1024, crop : 'fill', quality : 65 })}}"
+		data-sm-src="{{image.resource.getThumbnailUrl({ height : 292, width : 640, crop : 'fill', quality : 65 })}}">
+						<img alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" class="active-image" data-sv-img data-src="{{image.resource.getThumbnailUrl({ height : 397, width : 343, crop : 'fill', quality : 65 })}}"/>
+				<img alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" src="{{image.resource.getThumbnailUrl({"quality" : 100, "width": 200, "height" : 133, "crop" : "limit"})}}" />
+				<img class="small-partner-logo" src="{{image.resource.getThumbnailUrl({ height : 45, width: 176, crop: 'limit', quality: 100 })}}">
+						<img alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" src="{{image.resource.getThumbnailUrl({ "quality" : 100, "width": 150, "height": 100, "crop" : "limit" })}}
+						<img alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" src="{{image.resource.getThumbnailUrl({"quality" : 100, "width": 150, "height": 124, "crop" : "limit"})}}
+						<img alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" src="{{image.resource.getThumbnailUrl({"quality" : 100, "width": 170, "height": 140, "crop" : "limit"})}}
+				<img alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" src="{{image.resource.getThumbnailUrl({ quality: 65, height : 212, width : 376, crop : 'fill' })}}"/>
+				<img alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" src="{{image.resource.getThumbnailUrl({ quality: 65, height : 478, width : 708, crop : 'fill' })}}"/>
+					<img alt="{{:logoimage.alt_text_raw}}{{%logoimage.alt_text_raw}}{{?:logoimage.title}}{{%logoimage.title}}{{?:title}}{{%title}}{{/}}" src="{{logoimage.resource.getThumbnailUrl({ quality: 65, height : 100, width : 172, crop : 'limit' })}}"/>
+			<img alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" src="{{image.resource.getThumbnailUrl({ quality : 100 })}}"/>
+						<img class="default" src="{{image.resource.getThumbnailUrl({ "width": 760, "height": 475, "crop" : "fill", "quality" : 65 })}}" alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}">
+										<source srcset="{{primaryimage.resource.getThumbnailUrl({ height : 600, width : 1200, crop : 'fill', quality : 64 })}}" media="(min-width: 1025px)">
+										<source srcset="{{primaryimage.resource.getThumbnailUrl({ height : 485, width : 971, crop : 'fill', quality : 64 })}}" media="(min-width: 641px)">
+										<img src="{{primaryimage.resource.getThumbnailUrl({ height : 396, width : 585, crop : 'fill', quality : 64 })}}"  alt="{{:primaryimage.alt_text_raw}}{{%primaryimage.alt_text_raw}}{{?:primaryimage.title}}{{%primaryimage.title}}{{?:title}}{{%title}}{{/}}">
+										<source srcset="{{image.resource.getThumbnailUrl({ height : 600, width : 1200, crop : 'fill', quality : 64 })}}" media="(min-width: 1025px)">
+										<source srcset="{{image.resource.getThumbnailUrl({ height : 485, width : 971, crop : 'fill', quality : 64 })}}" media="(min-width: 641px)">
+										<img src="{{image.resource.getThumbnailUrl({ height : 396, width : 585, crop : 'fill', quality : 64 })}}"  alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}">
+								<source srcset="{{image.resource.getThumbnailUrl({ height : 290, width : 580, crop : 'fill', quality : 64 })}}" media="(min-width: 1025px)">
+								<source srcset="{{image.resource.getThumbnailUrl({ height : 234, width : 468, crop : 'fill', quality : 64 })}}" media="(min-width: 641px)">
+								<img srcset="{{image.resource.getThumbnailUrl({ height : 294, width : 587, crop : 'fill', quality : 64 })}}" 
+					<img src="{{asset.resource.getThumbnailUrl({ 'height' : 443, 'width' : 443, 'crop' : 'fill' })}}" alt="{{asset.title}}" data-credits="{{asset.credits}}">
+								<img src="{{icon.resource.getThumbnailUrl({ width : 31, height : 31, crop : 'fit', quality : 65 })}}" 
+						<img class="image-item" alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" data-src="{{image.resource.getThumbnailUrl({ width : 587, height : 406, crop : 'fill', quality : 65 })}}" {{:@first}}src="{{image.resource.getThumbnailUrl({ width : 587, height : 406, crop : 'fill', quality : 65 })}}"{{/first}} />
+							item.windowImage = resource.getThumbnailUrl({ height : height, width : width, crop : 'fill' });
+									<source srcset="{{image.resource.getThumbnailUrl({ height : 290, width : 580, crop : 'fill', quality : 64 })}}" media="(min-width: 1025px)">
+									<source srcset="{{image.resource.getThumbnailUrl({ height : 461, width : 921, crop : 'fill', quality : 64 })}}" media="(min-width: 641px)">
+									<img srcset="{{image.resource.getThumbnailUrl({ height : 269, width : 537, crop : 'fill', quality : 64 })}}" 
+									data-bg-lg="{{image.resource.getThumbnailUrl({ height : 490, width : 910, crop : 'fill', quality : 80 })}}"
+									data-bg-md="{{image.resource.getThumbnailUrl({ height : 315, width : 490, crop : 'fill', quality : 80 })}}"
+									data-bg-sm="{{image.resource.getThumbnailUrl({ height : 210, width : 315, crop : 'fill', quality : 80 })}}"
+								style="background-image: url('{{image.resource.getThumbnailUrl({ height : 560, width : 1120, crop : 'fill', quality : 80 })}}');">
+							<img alt="{{:primaryimage.alt_text_raw}}{{%primaryimage.alt_text_raw}}{{?:primaryimage.title}}{{%primaryimage.title}}{{?:title}}{{%title}}{{/}}" data-src="{{primaryimage.resource.getThumbnailUrl({ height : 575, width : 1200, crop : 'fill', quality : 64 })}}"/>
+							<img alt="{{:primaryimage.alt_text_raw}}{{%primaryimage.alt_text_raw}}{{?:primaryimage.title}}{{%primaryimage.title}}{{?:title}}{{%title}}{{/}}" data-src="{{primaryimage.resource.getThumbnailUrl({ height : 280, width : 560, crop : 'fill', quality : 64 })}}"/>
+							<img alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" data-src="{{image.resource.getThumbnailUrl({ height : 575, width : 1200, crop : 'fill', quality : 64 })}}"/>
+							<img alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" data-src="{{image.resource.getThumbnailUrl({ height : 280, width : 560, crop : 'fill', quality : 64 })}}"/>
+							<img alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" data-src="{{image.resource.getThumbnailUrl({ height : 582, width : 1164, crop : 'fill', quality : 80 })}}"/>
+							<a  href="//www.pinterest.com/pin/create/button/?media={{image.resource.getThumbnailUrl({ height : 575, width : 1200, crop : 'fill', quality : 64 })}}&description={{title}}" target="_blank" class="pinterest link-item" data-pin-do="buttonPin" data-pin-config="none"></a>
+						var src = data.image.resource.getThumbnailUrl({ height : 370, width : 545, crop : 'fill', quality : 64 });
+							var src = data.image.resource.getThumbnailUrl({ height : 323, width : 574, crop : 'fill', quality : 64 });
+							var src = data.image.resource.getThumbnailUrl({ height : 350, width : 516, crop : 'fill', quality : 64 });
+							var src = data.image.resource.getThumbnailUrl({ height : 232, width : 410, crop : 'fill', quality : 64 });
+							var src = data.image.resource.getThumbnailUrl({ height : 258, width : 380, crop : 'fill', quality : 64 });
+							<img alt="{{:image.alt_text_raw}}{{%image.alt_text_raw}}{{?:image.title}}{{%image.title}}{{?:title}}{{%title}}{{/}}" data-src="{{image.resource.getThumbnailUrl({ height : 710, width : 582, crop : 'fill', quality : 65 })}}" />
+							var src = data.image.resource.getThumbnailUrl({ height : 368, quality : 64 });
+							var src = data.image.resource.getThumbnailUrl({ height : 1300, quality : 64 });
+							var src = data.image.resource.getThumbnailUrl({ height : 800, quality : 64 });
+						var src = data.image.resource.getThumbnailUrl({ height : 370, crop : 'fill', quality : 64 });
+						var src = data.image.resource.getThumbnailUrl({ height : 204, width: 320, crop: 'fill', quality : 64 });
+						var src = data.image.resource.getThumbnailUrl({ height : 120, width: 172, crop: 'fill', quality : 64 });
+		       poster="{{data.video.image.resource.getThumbnailUrl({ height: 675, width : 1200, crop : 'fill' })}}"
+				const poster_url = resource.getThumbnailUrl({ height : 1080, crop : 'fill' });
+				<img alt="{{%media.0.mediadesc}}" class="thumb" src="{{media.0.getThumbnailUrl({width : 570, height : 387, crop : 'fill', quality : 50, fetch_format : 'jpg'})}}"/>
+					<img src="{{logo.image.getThumbnailUrl({ height : 150, width : 375, crop : 'limit', quality : 65 })}}" alt="{{logo.medianame}}" class="logo">
+				schema['image'] = eventData.media[0].image.getThumbnailUrl({ width : 1200, crop : 'limit', quality : 65 });
+			<img class="responsive" src="{{~var.newPrimaryImage.resource.getThumbnailUrl({ "height" : 251, "width" : 380, "crop" : "fill" })}}" alt=""/>
+								var src = data.image.getThumbnailUrl({ width : 587, crop : 'limit', quality : 64, fetch_format : 'jpg' });
+									var src = data.image.getThumbnailUrl({ height : 323, width : 574, crop : 'limit', quality : 64, fetch_format : 'jpg' });
+									var src = data.image.getThumbnailUrl({ height : 350, width : 516, crop : 'limit', quality : 64, fetch_format : 'jpg' });
+									var src = data.image.getThumbnailUrl({ height : 232, width : 410, crop : 'limit', quality : 64, fetch_format : 'jpg' });
+									var src = data.image.getThumbnailUrl({ height : 258, width : 380, crop : 'limit', quality : 64, fetch_format : 'jpg' });
+									var src = data.image.getThumbnailUrl({ width: 1200, crop : 'limit', quality : 64, fetch_format : 'jpg' });
+									var src = data.image.getThumbnailUrl({ width: 800,  crop : 'limit', quality : 64, fetch_format : 'jpg' });
+								    var src = data.image.getThumbnailUrl({ width : 380, crop : 'limit', quality : 64, fetch_format : 'jpg' });
+			var src = data.media.image.getThumbnailUrl({ height : 400, width : 587, crop : 'fill', quality : 65, fetch_format : 'jpg' });
+			var src = data.media.image.getThumbnailUrl({ height : 605, width : 1200, crop : 'fill', quality : 65, fetch_format : 'jpg' });
+			var src = data.media.image.getThumbnailUrl({ height : 536, width : 971, crop : 'fill', quality : 65, fetch_format : 'jpg' });
+			var src = data.media.image.getThumbnailUrl({ width: 1200, crop : 'limit', quality : 64, fetch_format : 'jpg' });
+			var src = data.media.image.getThumbnailUrl({ width: 800,  crop : 'limit', quality : 64, fetch_format : 'jpg' });
+		    var src = data.media.image.getThumbnailUrl({ width : 380, crop : 'limit', quality : 64, fetch_format : 'jpg' });
+					<img alt="{{%title}}" class="thumb" src="{{primary_image.getThumbnailUrl({width : 603, height : 409, crop : 'fill', quality : 65, fetch_format : 'jpg'})}}"/>
+										<img src="{{logo.image.getThumbnailUrl({ height : 150, width : 275, crop : 'limit', quality : 65 })}}" alt="{{logo.medianame}}" class="logo">
+						<img src="{{image.resource.1.getThumbnailUrl({ "height" : 100, "width" : 218, "crop" : "fill", "quality" : 65 })}}" />
+						<img src="{{asset.resource.getThumbnailUrl({ 'height' : 480, 'width' : 640, 'crop' : 'fill', 'quality' : 65 })}}" 
+					<img alt="{{asset.alt_text_raw}}"  src="{{asset.resource.getThumbnailUrl({ 'height' : 150, 'width' : 175, 'crop' : 'fill', 'quality' : 65 })}}" />
+					<img src="{{asset.resource.getThumbnailUrl({ "height" : 150, "width" : 175, "crop" : "fill", "quality" : 65 })}}" alt="{{-title}}" /> 
+	<img class="thumb" src="{{primary_image.getThumbnailUrl({width : 290, height : 200, crop : 'fill', quality : 65})}}" alt="{{title}}" />
+				<img class="thumb" src="{{image.getThumbnailUrl({width : 150, height : 150, crop : 'fill', quality : 65})}}" alt="{{title}}" />
+				<img class="thumb" src="{{primary_image.getThumbnailUrl({width : 150, height : 150, crop : 'fill', quality : 65})}}" alt="{{title}}" />
+				<source srcset="{{data.image.resource.getThumbnailUrl({ height : 1000, width : 1600, crop : 'fill', gravity : 'auto', quality : 65 })}}" media="(min-width: 1025px)">
+				<source srcset="{{data.image.resource.getThumbnailUrl({ height : 655, width : 1024, crop : 'fill', gravity : 'auto', quality : 65 })}}" media="(min-width: 641px)">
+				<source srcset="{{data.image_mobile.resource.getThumbnailUrl({ height : 1060, width : 640, crop : 'fill', gravity : 'auto', quality : 65 })}}" media="(max-width: 640px)">
+					srcset="{{data.image_mobile.resource.getThumbnailUrl({ height : 1060, width : 640, crop : 'fill', quality : 65 })}}"
+			image = "{{~exec(data.widgetArgs.nav.image.resource.getThumbnailUrl({height: 280, width: 280, crop: 'fill'}))}}"
+							img: image.getThumbnailUrl({ width: 542, height: 240, crop : 'fill' }),
+			{{~setVar("lgSrc", data.cloudinaryImage !== undefined ? data.cloudinaryImage.getThumbnailUrl({ width : 275, height : 275, crop : 'fill', quality : 65 }) : data.cloudinaryImageLg !== undefined ? data.cloudinaryImageLg : "")}}
+			{{~setVar("smSrc", data.cloudinaryImage !== undefined ? data.cloudinaryImage.getThumbnailUrl({ width : 500, height : 338, crop : 'fill', quality : 65 }) : data.cloudinaryImageLg !== undefined ? data.cloudinaryImageSm : "")}}
+        <img src="{{primary_image.getThumbnailUrl({ width : 585, height : 585, crop : 'fill', quality : 65 })}}" alt="{{%title}}">
+        <img src="{{primary_image.getThumbnailUrl({ width : 585, height : 275, crop : 'fill', quality : 65 })}}" alt="{{%title}}">
+        <img src="{{primary_image.getThumbnailUrl({ width : 275, height : 275, crop : 'fill', quality : 65 })}}" alt="{{%title}}">
+				<img class="thumb" src="{{image.resource.getThumbnailUrl({width : 343, height : 343, crop : 'fill', quality : 65, fetch_format : 'jpg'})}}"/>
+															<img alt="{{title}}" src="{{image.getThumbnailUrl({ height : 170, width : 273, crop : 'fill', quality : 65 })}}">
+									<img src="{{image.getThumbnailUrl({ width : 300, height : 220, crop : 'fill', quality : 65 })}}" alt="{{%title}}" />
+									<img src="{{image.getThumbnailUrl({ width : 273, height : 274, crop : 'fill', quality : 85 })}}" alt="{{%description}}" />
+									<img src="{{image.getThumbnailUrl({ width : 320, height : 220, crop : 'fill', quality : 65 })}}" alt="{{%title}}" />
+												<img alt="{{title}}" class="thumb" src="{{image.getThumbnailUrl({ width : 343, height : 343, crop : 'fill', quality : 65 })}}" onerror="this.onerror=null; this.src='/includes/client_public/shared/placeholder.jpg';"/>
+					<img alt="{{title}}" src="{{image.getThumbnailUrl({ height : 80, crop : "fill", quality : 65 })}}" />
+					<img src="{{logo.image.getThumbnailUrl({ height : 150, width : 375, crop : 'limit', quality : 65 })}}" alt="{{logo.medianame}}" class="logo">
+				schema['image'] = eventData.media[0].image.getThumbnailUrl({ width : 1200, crop : 'limit', quality : 65 });
+										<img src="{{logo.image.getThumbnailUrl({ height : 150, width : 275, crop : 'limit', quality : 65 })}}" alt="{{logo.medianame}}" class="logo">
+									<source srcset="{{image.getThumbnailUrl({ height : 1000, width : 1600, crop : 'fill', quality : 65 })}}" media="(min-width: 1025px)">
+									<source srcset="{{image.getThumbnailUrl({ height : 536, width : 768, crop : 'fill', quality : 65 })}}" media="(min-width: 641px)">
+									<img src="{{image.getThumbnailUrl({ height : 400, width : 640, crop : 'fill', quality : 65 })}}">
+					<img class="package-company-logo" src="{{~var.logo.getThumbnailUrl({  })}}">
+							<img class="related-package-image" src="{{~plugins.cloudinary.createResource({imageUrl: data.primary_image_url}).getThumbnailUrl({ 'height' : 188, 'width' : 376, 'crop' : 'fill' })}}" alt="{{title}}" />
+									<source srcset="{{image.getThumbnailUrl({ height : 1000, width : 1600, crop : 'fill', quality : 65 })}}" media="(min-width: 1025px)">
+									<source srcset="{{image.getThumbnailUrl({ height : 536, width : 768, crop : 'fill', quality : 65 })}}" media="(min-width: 641px)">
+									<img src="{{image.getThumbnailUrl({ height : 400, width : 640, crop : 'fill', quality : 65 })}}">
+					<img class="package-company-logo" src="{{~var.logo.getThumbnailUrl({  })}}">
+							<img class="related-package-image" src="{{~plugins.cloudinary.createResource({imageUrl: data.primary_image_url}).getThumbnailUrl({ 'height' : 188, 'width' : 376, 'crop' : 'fill' })}}" alt="{{title}}" />
+							<img alt="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 470, height: 300, crop : 'fill' })}}" />
+			<img alt="{{%title}}" title="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 220, height: 220, crop : 'fill' })}}" />		
+						<img src="{{image.resource.getThumbnailUrl({ "height" : 220, "width" : 220, "crop" : "fill" })}}"/>
+										<img src="{{~plugins.cloudinary.createResource(data.image.resource).getThumbnailUrl({ 'height' : 197, 'width' : 320, 'crop' : 'fill' })}}" alt="{{image.title}}" />
+					<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill" })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 300, "width" : 720, "crop" : "fill" })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 300, "width" : 720, "crop" : "fill" })}}"/>
+								<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill" })}}"/>
+						<img src="{{image.resource.getThumbnailUrl({ "height" : 220, "width" : 220, "crop" : "fill" })}}"/>
+										<img src="{{~plugins.cloudinary.createResource({ raw : data.image.resource_raw }).getThumbnailUrl({ 'height' : 197, 'width' : 320, 'crop' : 'fill' })}}" alt="{{image.title}}" />
+					<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill" })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 300, "width" : 720, "crop" : "fill" })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 300, "width" : 720, "crop" : "fill" })}}"/>
+								<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill" })}}"/>
+								<a href="{{url}}"><img src="{{image.resource.getThumbnailUrl({ quality: 80, height : 180, width : 310, crop : 'fill' })}}"></a>
+	                    <img src="{{image.resource.getThumbnailUrl({'height' : 240, 'width' : 226, 'crop' : 'fill'})}}">
+					<img src="{{asset.resource.getThumbnailUrl({ 'width': 375, 'height': 200, 'crop': 'fill' })}}" class="primary">
+	<img class="social-img stn" src="{{image.resource.getThumbnailUrl({ height : 45, width : 45, crop : 'fill' })}}"/>
+	{{:hoverimage}}<img class="social-img hover" src="{{hoverimage.resource.getThumbnailUrl({ height : 45, width : 45, crop : 'fill' })}}"/>{{/hoverimage}}
+							<div class="desktop-image" style="background-image: url('{{image.resource.getThumbnailUrl({ quality: 50, height : 1152, width : 2048, crop : 'fill' })}}');"></div>
+							<img data-small-src="{{image.resource.getThumbnailUrl({ quality: 50, height : 480, width : 768, crop : 'fill' })}}"
+								data-medium-src="{{image.resource.getThumbnailUrl({ quality: 50, height : 432, width : 1024, crop : 'fill' })}}"
+								ddata-large-src="{{image.resource.getThumbnailUrl({ quality: 50, height : 432, width : 1024, crop : 'fill' })}}"/>
+							<div class="desktop-image" style="background-image: url('{{image.resource.getThumbnailUrl({ quality: 50, height : 1152, width : 2048, crop : 'fill' })}}');"></div>
+							<img data-small-src="{{image.resource.getThumbnailUrl({ quality: 50, height : 480, width : 768, crop : 'fill' })}}"
+								data-medium-src="{{image.resource.getThumbnailUrl({ quality: 50, height : 432, width : 1024, crop : 'fill' })}}"
+							 	data-large-src="{{image.resource.getThumbnailUrl({ quality: 50, height : 432, width : 1024, crop : 'fill' })}}"/>
+									data-small-src="{{imagemobile.resource.getThumbnailUrl({ quality: 75, height : 970, width : 640, crop : 'fill' })}}"
+									data-small-src="{{image.resource.getThumbnailUrl({ quality: 75, height : 970, width : 640, crop : 'fill' })}}"
+			<div class="desktop-image" style="background-image: url('{{items.0.image.resource.getThumbnailUrl({ quality: 50, height : 1152, width : 2048, crop : 'fill' })}}');" {{:image.videoid}}sv-videoImg{{/isVideo}}></div>
+			<img data-small-src="{{items.0.image.resource.getThumbnailUrl({ quality: 50, height : 480, width : 768, crop : 'fill' })}}"
+				 data-medium-src="{{items.0.image.resource.getThumbnailUrl({ quality: 50, height : 300, width : 1024, crop : 'fill' })}}"
+				 data-large-src="{{items.0.image.resource.getThumbnailUrl({ quality: 50, height : 300, width : 1024, crop : 'fill' })}}"/>
+			<div class="desktop-image" style="background-image: url('{{items.0.image.resource.getThumbnailUrl({ quality: 50, height : 1152, width : 2048, crop : 'fill' })}}');"></div>
+			<img data-small-src="{{items.0.image.resource.getThumbnailUrl({ quality: 50, height : 480, width : 768, crop : 'fill' })}}"
+				 data-medium-src="{{items.0.image.resource.getThumbnailUrl({ quality: 50, height : 300, width : 1024, crop : 'fill' })}}"
+				 data-large-src="{{items.0.image.resource.getThumbnailUrl({ quality: 50, height : 300, width : 1024, crop : 'fill' })}}"/>
+			data-small-mobile-src="{{items.0.imagemobile.resource.getThumbnailUrl({ quality: 70, height : 970, width :640, crop : 'fill' })}}"
+			data-small-mobile-src="{{items.0.image.resource.getThumbnailUrl({ quality: 70, height : 970, width :640, crop : 'fill' })}}"
+						<div class="desktop-image" style="background-image: url('{{~var.resource.getThumbnailUrl({ quality: 50, height : 1152, width : 2048, crop : 'fill' })}}');"></div>
+						<img data-small-src="{{~var.resource.getThumbnailUrl({ quality: 50, height : 480, width : 768, crop : 'fill' })}}"
+							data-medium-src="{{~var.resource.getThumbnailUrl({ quality: 50, height : 432, width : 1024, crop : 'fill' })}}"
+							ddata-large-src="{{~var.resource.getThumbnailUrl({ quality: 50, height : 432, width : 1024, crop : 'fill' })}}"/>
+						<div class="desktop-image" style="background-image: url('{{~var.resource.getThumbnailUrl({ quality: 50, height : 1152, width : 2048, crop : 'fill' })}}');"></div>
+						<img data-small-src="{{~var.resource.getThumbnailUrl({ quality: 50, height : 480, width : 768, crop : 'fill' })}}"
+							data-medium-src="{{~var.resource.getThumbnailUrl({ quality: 50, height : 432, width : 1024, crop : 'fill' })}}"
+						 	data-large-src="{{~var.resource.getThumbnailUrl({ quality: 50, height : 432, width : 1024, crop : 'fill' })}}"/>
+									src="{{~var.resourceM.getThumbnailUrl({ quality: 75, height : 970, width : 640, crop : 'fill' })}}"
+									src="{{~var.resource.getThumbnailUrl({ quality: 75, height : 970, width : 640, crop : 'fill' })}}"
+						<img data-large-src="{{image.resource.getThumbnailUrl({ quality: 70, height : 478, width : 478, crop : 'fill' })}}"
+							 data-medium-src="{{image.resource.getThumbnailUrl({ quality: 70, height : 344, width : 344, crop : 'fill' })}}"
+							 data-small-src="{{image.resource.getThumbnailUrl({ quality: 70, height : 290, width : 290, crop : 'fill' })}}"/>
+						<img data-large-src="{{image.resource.getThumbnailUrl({ quality: 70, height : 235, width : 235, crop : 'fill' })}}"
+							 data-medium-src="{{image.resource.getThumbnailUrl({ quality: 70, height : 166, width : 166, crop : 'fill' })}}"
+							 data-small-src="{{image.resource.getThumbnailUrl({ quality: 70, height : 140, width : 140, crop : 'fill' })}}"/>
+				<img src="{{image.resource.getThumbnailUrl({ quality: 60, height : 230, width : 308, crop : 'fill' })}}"
+					 data-large-src="{{image.resource.getThumbnailUrl({ quality: 80, height : 230, width : 308, crop : 'fill' })}}"
+					 data-medium-src="{{image.resource.getThumbnailUrl({ quality: 80, height : 250, width : 340, crop : 'fill' })}}"
+					 data-small-src="{{image.resource.getThumbnailUrl({ quality: 80, height : 220, width : 290, crop : 'fill' })}}"/>
+								<img src="{{asset.resource.getThumbnailUrl({ 'height' : 480, 'width' : 640, 'crop' : 'fill' })}}" />
+							<img src="{{image.resource.getThumbnailUrl({ 'height' : 480, 'width' : 640, 'crop' : 'fill' })}}" />
+						<img src="{{image.resource.getThumbnailUrl({ 'height' : 150, 'width' : 175, 'crop' : 'fill' })}}" />
+                <img src="{{image.resource.getThumbnailUrl({ quality: 80, height : 200, width : 250, crop : 'fill' })}}">
+	                        <img src="{{image.resource.getThumbnailUrl({ quality: 80, height : 257, width : 800, crop : 'fill' })}}">
+										<img src="{{image.resource.getThumbnailUrl({ height : 300, width : 600, crop : 'fill' })}}"/>
+										<img src="{{image.resource.getThumbnailUrl({ height : 160, width : 240, crop : 'lfill' })}}"/>
+						<img src="{{~var.resource.getThumbnailUrl({ width : 500, height : 256,  crop : 'fill' })}}"/>
+						<img src="{{~var.resource.getThumbnailUrl({ width : 300, height : 300,  crop : 'fill' })}}"/>
+						<img src="{{image.resource.getThumbnailUrl({ height : 353, width : 590, crop : 'fill' })}}"/>
+							<img data-sv-slide-image src="{{image.resource.getThumbnailUrl({ quality: 80, height : 204, width : 254, crop : 'fill' })}}"
+								data-large-src="{{image.resource.getThumbnailUrl({ quality: 80, height : 204, width : 254, crop : 'fill' })}}"
+								data-small-src="{{image.resource.getThumbnailUrl({ quality: 80, height : 140, width : 140, crop : 'fill' })}}"
+							<img src="{{image.resource.getThumbnailUrl({ height : 278, width : 450, crop : 'fill' })}}"/>
+			<div class="sponsors_imagebox_background" style="background-image: url({{:image}}{{image.resource.getThumbnailUrl({ quality: 60, height : 353, width : 590, crop : 'fill' })}}{{?}}/includes/public/assets/shared/hd-placeholder.jpg{{/}})">
+									<img src="{{~var.resource.getThumbnailUrl({ width : 176, height : 100,  crop : 'fill' })}}"/>
+			<img src="{{image.resource.getThumbnailUrl({ quality: 80, width : 120, height: 156, crop : 'fill' })}}"/>
+                            <img src="{{video.image.resource.getThumbnailUrl({'height' : 375, 'width' : 610, 'crop' : 'fill'})}}" alt="">
+						<img src="{{image.resource.1.getThumbnailUrl({ "height" : 85, "width" : 115, "crop" : "fill" })}}" />
+						<img src="{{asset.resource.getThumbnailUrl({ 'height' : 480, 'width' : 640, 'crop' : 'fill' })}}" />
+					<img src="{{asset.resource.getThumbnailUrl({ 'height' : 150, 'width' : 175, 'crop' : 'fill' })}}" />
+					<img src="{{asset.resource.getThumbnailUrl({ "height" : 150, "width" : 175, "crop" : "fill" })}}" alt="{{-title}}" /> 
+													<img class="thumb" src="{{image.getThumbnailUrl({ width : 320, height : 197, crop : 'fill' })}}"/>
+					<img src="{{image.getThumbnailUrl({ height : 80, crop : "fill" })}}" />
+							<img alt="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 510, height: 300, crop : 'fill' })}}" />
+			<img alt="{{%title}}" title="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 240, height: 240, crop : 'fill' })}}" />		
+	<img src="{{image.resource.getThumbnailUrl({width : 720, crop : 'fill', quality: 60})}}" class="autoresp-hero">
+			<img class="section-image" src="{{image.resource.getThumbnailUrl({width : 125, height : 100, crop : 'fill', quality: 60})}}">
+					<img src="{{~plugins.cloudinary.createResource({ imageUrl : data.mediaurl }).getThumbnailUrl({width : 150, height : 100, crop : 'fill', quality: 60})}}">
+					<img src="{{getThumbnailUrl({width : 90, height : 60, crop : 'fill', quality : 60})}}">
+					<![CDATA[{{:image}}<img src="{{image.resource.getThumbnailUrl({ "height" : 250, "width" : 750, "crop" : "fill", "quality" : 60 })}}">{{/image}}{{cleanDescription.replace(/<p>(<img[\w\s=""''-:]+>)<\/p>/gm, "$1")}}]]>
+					<![CDATA[{{:image}}<img src="{{image.resource.getThumbnailUrl({ "height" : 250, "width" : 750, "crop" : "fill", "quality" : 60 })}}">{{/image}}{{teaser}}]]>
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 220, "width" : 220, "crop" : "fill", "quality" : 60 })}}"/>
+					<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill", "quality" : 60 })}}"/>
+								<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill", "quality" : 60 })}}"/>
+					<img src="{{image.resource.getThumbnailUrl({ "height" : 220, "width" : 220, "crop" : "fill", "quality" : 60 })}}"/>
+					<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill", "quality": 60 })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 250, "width" : 750, "crop" : "fill", "quality" : 60 })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 250, "width" : 750, "crop" : "fill", "quality" : 60 })}}"/>
+								<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill", "quality" : 60 })}}"/>
+	<img src="{{image.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}"/>
+								<source media="(min-width: 640px)" srcset="{{~var.resource.getThumbnailUrl({ height : 500, width : 1440, crop : 'fill', quality : 50 })}}"/>
+								<img class="theImage {{:@first}}initial{{/first}}" data-lazy="{{~var.resource.getThumbnailUrl({ height : 375 , width : 1080, crop : 'fill', quality : 50 })}}"/>
+							<img src="/includes/public/assets/slideshow-spacer-home.gif" class="spacer" {{:@first}}style="background-image: url({{~var.resource.getThumbnailUrl({ effect: 'blur', width : 300, height : 100, crop : 'fill', quality : 60})}})" {{/first}} />
+								<source media="(min-width: 640px)" srcset="{{~var.resource.getThumbnailUrl({ height : 500, width : 1440, crop : 'fill', quality : 50 })}}"/>
+								<img class="theImage {{:@first}}initial{{/first}}" data-lazy="{{~var.resource.getThumbnailUrl({ height : 500 , width : 620, crop : 'fill', quality : 50 })}}"/>
+								 <img src="/includes/public/assets/slideshow-spacer-home.gif" class="spacer" {{:@first}}style="background-image: url({{~var.resource.getThumbnailUrl({ effect: 'blur', width : 300, height : 100, crop : 'fill', quality : 60})}})" {{/first}} />
+                <i class="icon" style="background-image: url('{{image_mobile.resource.getThumbnailUrl({ height : 43, width : 42, quality : 60 })}}')"></i>
+                <i class="icon" style="background-image: url('{{image.resource.getThumbnailUrl({ height : 43, width : 42, quality : 60 })}}')"></i>
+						<img src="{{image.resource.getThumbnailUrl({ height : 233, width : 310, crop : 'fill', quality : 60 })}}"/>
+					<img src="{{image.resource.getThumbnailUrl({ height : 416, width : 315, crop : 'fill', quality : 60 })}}"/>
+						<img src="{{image.resource.getThumbnailUrl({ height : 190, width : 240, crop : 'fill', quality : 60 })}}" alt="" />
+						<img src="{{image.resource.getThumbnailUrl({ height : 190, width : 240, crop : 'fill', quality : 60 })}}" alt="" />
+								<img src="{{image.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}"/>
+									<img src="{{asset.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}" alt="">
+					<img src="{{image.resource.getThumbnailUrl({ height : 58, width : 263, crop : 'fill', quality : 60 })}}" alt="" />
+						<img class="img" src="{{image.resource.getThumbnailUrl({ height : 310, width : 310, crop : 'fill', quality : 60 })}}"/>
+								<img src="{{image.resource.getThumbnailUrl({ quality: 75, height : 345, width : 608, crop : 'fill' })}}"/>
+								<img src="{{image.resource.getThumbnailUrl({ quality: 50, height : 137, width : 188, crop : 'fill' })}}"/>
+					<img data-src="{{image.resource.getThumbnailUrl({ quality: 50, height : 263, width : 395, crop : 'fill' })}}"/>
+						<img src="{{image.resource.getThumbnailUrl({ quality: 50, height : 263, width : 395, crop : 'fill' })}}"/>
+                                <img class="mediaBox" src="{{image.resource.getThumbnailUrl({ width : 225, height: 170, crop : 'fill', quality : 60 })}}" />
+						<img src="{{image.resource.getThumbnailUrl({ height : 137, width : 240, crop : 'fill', quality : 60 })}}"/>
+								<img data-lazy="{{image.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}"/>
+									<img data-lazy="{{asset.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}" alt="">
+								<img data-lazy="{{image.resource.getThumbnailUrl({ height : 300, width : 600, crop : 'fill' })}}"/>
+								<img data-lazy="{{image.resource.getThumbnailUrl({ height : 300, width : 600, crop : 'fill' })}}"/>
+										<img data-lazy="{{asset.resource.getThumbnailUrl({ height : 300, width : 600, crop : 'fill' })}}"/>
+									<img data-lazy="{{~plugins.cloudinary.createResource({ imageUrl : 'http://www.poconomountains.com/includes/public/assets/images/rc/default-img.png' }).getThumbnailUrl({width : 600, height : 300, crop : 'fill', quality: 60})}}" class='{{*templateData.placeHeight}}' />
+							<img src="{{image.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}"/>
+						<img src="{{image.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}"/>
+		{{:image}}<img src="{{image.getThumbnailUrl({ "height" : 120, "width" : 250, "crop" : "fill" })}}" data-gtm-click data-gtm-vars='{ "tCore" : { "action" : "{{template}}_infowindow_image_click", "label" : "{{%%name}}" } }'>{{/}}
+		<img src="{{image.resource.getThumbnailUrl({ "height" : 137, "width" : 240, "crop" : "fill", "quality" : 65 })}}" />
+				<a href="{{image.getThumbnailUrl({ 'quality' : 60 })}}" rel="shadowbox[gallery]"><img src="{{image.getThumbnailUrl({ 'width' : 712, 'height' : 474, 'crop' : 'limit', 'quality' : 60 })}}" alt="{{medianame}}" /></a>
+													<img class="wish-image" src="{{image.resource.getThumbnailUrl({ height : 150, width : 225, crop : 'fill', quality : 60 })}}">
+						<img src="{{image.resource.1.getThumbnailUrl({ "height" : 427, "width" : 578, "crop" : "fill" })}}" onError="this.onerror=null;this.src='/includes/public/assets/images/fallback-image.png';"/>
+						<img src="{{asset.resource.getThumbnailUrl({ 'height' : 315, 'width' : 560, 'crop' : 'fill', quality : 60 })}}" />
+								<img class="vid-thumbnail" src="{{asset.resource.getThumbnailUrl({ 'height' : 315, 'width' : 560, 'crop' : 'limit', quality : 60 })}}" />
+					<img src="{{asset.resource.getThumbnailUrl({ 'height' : 150, 'width' : 175, 'crop' : 'fill', quality : 60 })}}" />
+					<img src="{{asset.resource.getThumbnailUrl({ "height" : 150, "width" : 175, "crop" : "fill", "quality" : 60 })}}" alt="{{-title}}" /> 
+					<img src="{{image.resource.getThumbnailUrl({ quality: 75, height : 67, width : 100, crop : 'fill' })}}">
+				backgroundImage = sv_cloudinaryLib.default.createResource({ imageUrl : backImageUrlMob }).getThumbnailUrl({ quality: 60, width : 640, height : 828, crop : 'fill'});
+            <i class="icon" style="background-image: url('{{twitter_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+            <i class="icon" style="background-image: url('{{pinterest_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+            <i class="icon" style="background-image: url('{{instagram_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+            <i class="icon" style="background-image: url('{{youtube_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+            <i class="icon" style="background-image: url('{{flickr_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+            <i class="icon" style="background-image: url('{{google_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+								<img src="{{image.getThumbnailUrl({ width : 300, height : 220, crop : 'fill', quality : 60 })}}" alt="{{%title}}" />
+								<img src="{{image.getThumbnailUrl({ width : 302, height : 302, crop : 'fill', quality : 60 })}}" alt="{{%description}}" />
+								<img src="{{image.getThumbnailUrl({ width : 258, crop : 'fill', quality : 60 })}}" alt="{{%description}}" />
+								<img src="{{image.getThumbnailUrl({ width : 320, height : 220, crop : 'fill', quality : 60 })}}" alt="{{%title}}" />
+										<img src="{{image.getThumbnailUrl({ width : 100, quality : 60 })}}"/>
+					<img src="{{image.getThumbnailUrl({ height : 80, crop : "fill", quality : 60 })}}" />
+							<img alt="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 510, height: 300, crop : 'fill' })}}" />
+			<img alt="{{%title}}" title="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 240, height: 240, crop : 'fill' })}}" />		
+	<img src="{{image.resource.getThumbnailUrl({width : 720, crop : 'fill', quality: 60})}}" class="autoresp-hero">
+			<img class="section-image" src="{{image.resource.getThumbnailUrl({width : 125, height : 100, crop : 'fill', quality: 60})}}">
+					<img src="{{~plugins.cloudinary.createResource({ imageUrl : data.mediaurl }).getThumbnailUrl({width : 150, height : 100, crop : 'fill', quality: 60})}}">
+					<img src="{{getThumbnailUrl({width : 90, height : 60, crop : 'fill', quality : 60})}}">
+					<![CDATA[{{:image}}<img src="{{image.resource.getThumbnailUrl({ "height" : 250, "width" : 750, "crop" : "fill", "quality" : 60 })}}">{{/image}}{{cleanDescription.replace(/<p>(<img[\w\s=""''-:]+>)<\/p>/gm, "$1")}}]]>
+					<![CDATA[{{:image}}<img src="{{image.resource.getThumbnailUrl({ "height" : 250, "width" : 750, "crop" : "fill", "quality" : 60 })}}">{{/image}}{{teaser}}]]>
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 220, "width" : 220, "crop" : "fill", "quality" : 60 })}}"/>
+					<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill", "quality" : 60 })}}"/>
+								<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill", "quality" : 60 })}}"/>
+					<img src="{{image.resource.getThumbnailUrl({ "height" : 220, "width" : 220, "crop" : "fill", "quality" : 60 })}}"/>
+					<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill", "quality": 60 })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 250, "width" : 750, "crop" : "fill", "quality" : 60 })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 250, "width" : 750, "crop" : "fill", "quality" : 60 })}}"/>
+								<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill", "quality" : 60 })}}"/>
+	<img src="{{image.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}"/>
+								<source media="(min-width: 640px)" srcset="{{~var.resource.getThumbnailUrl({ height : 500, width : 1440, crop : 'fill', quality : 50 })}}"/>
+								<img class="theImage {{:@first}}initial{{/first}}" data-lazy="{{~var.resource.getThumbnailUrl({ height : 375 , width : 1080, crop : 'fill', quality : 50 })}}"/>
+							<img src="/includes/public/assets/slideshow-spacer-home.gif" class="spacer" {{:@first}}style="background-image: url({{~var.resource.getThumbnailUrl({ effect: 'blur', width : 300, height : 100, crop : 'fill', quality : 60})}})" {{/first}} />
+								<source media="(min-width: 640px)" srcset="{{~var.resource.getThumbnailUrl({ height : 500, width : 1440, crop : 'fill', quality : 50 })}}"/>
+								<img class="theImage {{:@first}}initial{{/first}}" data-lazy="{{~var.resource.getThumbnailUrl({ height : 500 , width : 620, crop : 'fill', quality : 50 })}}"/>
+								 <img src="/includes/public/assets/slideshow-spacer-home.gif" class="spacer" {{:@first}}style="background-image: url({{~var.resource.getThumbnailUrl({ effect: 'blur', width : 300, height : 100, crop : 'fill', quality : 60})}})" {{/first}} />
+                <i class="icon" style="background-image: url('{{image_mobile.resource.getThumbnailUrl({ height : 43, width : 42, quality : 60 })}}')"></i>
+                <i class="icon" style="background-image: url('{{image.resource.getThumbnailUrl({ height : 43, width : 42, quality : 60 })}}')"></i>
+						<img src="{{image.resource.getThumbnailUrl({ height : 233, width : 310, crop : 'fill', quality : 60 })}}"/>
+					<img src="{{image.resource.getThumbnailUrl({ height : 416, width : 315, crop : 'fill', quality : 60 })}}"/>
+						<img src="{{image.resource.getThumbnailUrl({ height : 190, width : 240, crop : 'fill', quality : 60 })}}" alt="" />
+						<img src="{{image.resource.getThumbnailUrl({ height : 190, width : 240, crop : 'fill', quality : 60 })}}" alt="" />
+								<img src="{{image.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}"/>
+									<img src="{{asset.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}" alt="">
+					<img src="{{image.resource.getThumbnailUrl({ height : 58, width : 263, crop : 'fill', quality : 60 })}}" alt="" />
+						<img class="img" src="{{image.resource.getThumbnailUrl({ height : 310, width : 310, crop : 'fill', quality : 60 })}}"/>
+								<img src="{{image.resource.getThumbnailUrl({ quality: 75, height : 345, width : 608, crop : 'fill' })}}"/>
+								<img src="{{image.resource.getThumbnailUrl({ quality: 50, height : 137, width : 188, crop : 'fill' })}}"/>
+					<img data-src="{{image.resource.getThumbnailUrl({ quality: 50, height : 263, width : 395, crop : 'fill' })}}"/>
+						<img src="{{image.resource.getThumbnailUrl({ quality: 50, height : 263, width : 395, crop : 'fill' })}}"/>
+                                <img class="mediaBox" src="{{image.resource.getThumbnailUrl({ width : 225, height: 170, crop : 'fill', quality : 60 })}}" />
+						<img src="{{image.resource.getThumbnailUrl({ height : 137, width : 240, crop : 'fill', quality : 60 })}}"/>
+								<img data-lazy="{{image.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}"/>
+									<img data-lazy="{{asset.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}" alt="">
+								<img data-lazy="{{image.resource.getThumbnailUrl({ height : 300, width : 600, crop : 'fill' })}}"/>
+								<img data-lazy="{{image.resource.getThumbnailUrl({ height : 300, width : 600, crop : 'fill' })}}"/>
+										<img data-lazy="{{asset.resource.getThumbnailUrl({ height : 300, width : 600, crop : 'fill' })}}"/>
+									<img data-lazy="{{~plugins.cloudinary.createResource({ imageUrl : 'http://www.poconomountains.com/includes/public/assets/images/rc/default-img.png' }).getThumbnailUrl({width : 600, height : 300, crop : 'fill', quality: 60})}}" class='{{*templateData.placeHeight}}' />
+							<img src="{{image.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}"/>
+						<img src="{{image.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}"/>
+		{{:image}}<img src="{{image.getThumbnailUrl({ "height" : 120, "width" : 250, "crop" : "fill" })}}" data-gtm-click data-gtm-vars='{ "tCore" : { "action" : "{{template}}_infowindow_image_click", "label" : "{{%%name}}" } }'>{{/}}
+		<img src="{{image.resource.getThumbnailUrl({ "height" : 137, "width" : 240, "crop" : "fill", "quality" : 65 })}}" />
+				<a href="{{image.getThumbnailUrl({ 'quality' : 60 })}}" rel="shadowbox[gallery]"><img src="{{image.getThumbnailUrl({ 'width' : 712, 'height' : 474, 'crop' : 'limit', 'quality' : 60 })}}" alt="{{medianame}}" /></a>
+													<img class="wish-image" src="{{image.resource.getThumbnailUrl({ height : 150, width : 225, crop : 'fill', quality : 60 })}}">
+						<img src="{{image.resource.1.getThumbnailUrl({ "height" : 427, "width" : 578, "crop" : "fill" })}}" onError="this.onerror=null;this.src='/includes/public/assets/images/fallback-image.png';"/>
+						<img src="{{asset.resource.getThumbnailUrl({ 'height' : 315, 'width' : 560, 'crop' : 'fill', quality : 60 })}}" />
+								<img class="vid-thumbnail" src="{{asset.resource.getThumbnailUrl({ 'height' : 315, 'width' : 560, 'crop' : 'limit', quality : 60 })}}" />
+					<img src="{{asset.resource.getThumbnailUrl({ 'height' : 150, 'width' : 175, 'crop' : 'fill', quality : 60 })}}" />
+					<img src="{{asset.resource.getThumbnailUrl({ "height" : 150, "width" : 175, "crop" : "fill", "quality" : 60 })}}" alt="{{-title}}" /> 
+					<img src="{{image.resource.getThumbnailUrl({ quality: 75, height : 67, width : 100, crop : 'fill' })}}">
+				backgroundImage = sv_cloudinaryLib.default.createResource({ imageUrl : backImageUrlMob }).getThumbnailUrl({ quality: 60, width : 640, height : 828, crop : 'fill'});
+            <i class="icon" style="background-image: url('{{twitter_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+            <i class="icon" style="background-image: url('{{pinterest_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+            <i class="icon" style="background-image: url('{{instagram_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+            <i class="icon" style="background-image: url('{{youtube_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+            <i class="icon" style="background-image: url('{{flickr_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+            <i class="icon" style="background-image: url('{{google_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+								<img src="{{image.getThumbnailUrl({ width : 300, height : 220, crop : 'fill', quality : 60 })}}" alt="{{%title}}" />
+								<img src="{{image.getThumbnailUrl({ width : 302, height : 302, crop : 'fill', quality : 60 })}}" alt="{{%description}}" />
+								<img src="{{image.getThumbnailUrl({ width : 258, crop : 'fill', quality : 60 })}}" alt="{{%description}}" />
+								<img src="{{image.getThumbnailUrl({ width : 320, height : 220, crop : 'fill', quality : 60 })}}" alt="{{%title}}" />
+										<img src="{{image.getThumbnailUrl({ width : 100, quality : 60 })}}"/>
+					<img src="{{image.getThumbnailUrl({ height : 80, crop : "fill", quality : 60 })}}" />
+							<img alt="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 510, height: 300, crop : 'fill' })}}" />
+			<img alt="{{%title}}" title="{{%title}}" src="{{asset.resource.getThumbnailUrl({ width : 240, height: 240, crop : 'fill' })}}" />		
+	<img src="{{image.resource.getThumbnailUrl({width : 720, crop : 'fill', quality: 60})}}" class="autoresp-hero">
+			<img class="section-image" src="{{image.resource.getThumbnailUrl({width : 125, height : 100, crop : 'fill', quality: 60})}}">
+					<img src="{{~plugins.cloudinary.createResource({ imageUrl : data.mediaurl }).getThumbnailUrl({width : 150, height : 100, crop : 'fill', quality: 60})}}">
+					<img src="{{getThumbnailUrl({width : 90, height : 60, crop : 'fill', quality : 60})}}">
+					<![CDATA[{{:image}}<img src="{{image.resource.getThumbnailUrl({ "height" : 250, "width" : 750, "crop" : "fill", "quality" : 60 })}}">{{/image}}{{cleanDescription.replace(/<p>(<img[\w\s=""''-:]+>)<\/p>/gm, "$1")}}]]>
+					<![CDATA[{{:image}}<img src="{{image.resource.getThumbnailUrl({ "height" : 250, "width" : 750, "crop" : "fill", "quality" : 60 })}}">{{/image}}{{teaser}}]]>
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 220, "width" : 220, "crop" : "fill", "quality" : 60 })}}"/>
+					<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill", "quality" : 60 })}}"/>
+								<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill", "quality" : 60 })}}"/>
+					<img src="{{image.resource.getThumbnailUrl({ "height" : 220, "width" : 220, "crop" : "fill", "quality" : 60 })}}"/>
+					<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill", "quality": 60 })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 250, "width" : 750, "crop" : "fill", "quality" : 60 })}}"/>
+							<img src="{{image.resource.getThumbnailUrl({ "height" : 250, "width" : 750, "crop" : "fill", "quality" : 60 })}}"/>
+								<img class="avatar" src="{{image.resource.getThumbnailUrl({ "height" : 80, "width" : 80, "crop" : "fill", "quality" : 60 })}}"/>
+	<img src="{{image.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}"/>
+								<source media="(min-width: 640px)" srcset="{{~var.resource.getThumbnailUrl({ height : 500, width : 1440, crop : 'fill', quality : 50 })}}"/>
+								<img class="theImage {{:@first}}initial{{/first}}" data-lazy="{{~var.resource.getThumbnailUrl({ height : 375 , width : 1080, crop : 'fill', quality : 50 })}}"/>
+							<img src="/includes/public/assets/slideshow-spacer-home.gif" class="spacer" {{:@first}}style="background-image: url({{~var.resource.getThumbnailUrl({ effect: 'blur', width : 300, height : 100, crop : 'fill', quality : 60})}})" {{/first}} />
+								<source media="(min-width: 640px)" srcset="{{~var.resource.getThumbnailUrl({ height : 500, width : 1440, crop : 'fill', quality : 50 })}}"/>
+								<img class="theImage {{:@first}}initial{{/first}}" data-lazy="{{~var.resource.getThumbnailUrl({ height : 500 , width : 620, crop : 'fill', quality : 50 })}}"/>
+								 <img src="/includes/public/assets/slideshow-spacer-home.gif" class="spacer" {{:@first}}style="background-image: url({{~var.resource.getThumbnailUrl({ effect: 'blur', width : 300, height : 100, crop : 'fill', quality : 60})}})" {{/first}} />
+                <i class="icon" style="background-image: url('{{image_mobile.resource.getThumbnailUrl({ height : 43, width : 42, quality : 60 })}}')"></i>
+                <i class="icon" style="background-image: url('{{image.resource.getThumbnailUrl({ height : 43, width : 42, quality : 60 })}}')"></i>
+						<img src="{{image.resource.getThumbnailUrl({ height : 233, width : 310, crop : 'fill', quality : 60 })}}"/>
+					<img src="{{image.resource.getThumbnailUrl({ height : 416, width : 315, crop : 'fill', quality : 60 })}}"/>
+						<img src="{{image.resource.getThumbnailUrl({ height : 190, width : 240, crop : 'fill', quality : 60 })}}" alt="" />
+						<img src="{{image.resource.getThumbnailUrl({ height : 190, width : 240, crop : 'fill', quality : 60 })}}" alt="" />
+								<img src="{{image.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}"/>
+									<img src="{{asset.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}" alt="">
+					<img src="{{image.resource.getThumbnailUrl({ height : 58, width : 263, crop : 'fill', quality : 60 })}}" alt="" />
+						<img class="img" src="{{image.resource.getThumbnailUrl({ height : 310, width : 310, crop : 'fill', quality : 60 })}}"/>
+								<img src="{{image.resource.getThumbnailUrl({ quality: 75, height : 345, width : 608, crop : 'fill' })}}"/>
+								<img src="{{image.resource.getThumbnailUrl({ quality: 50, height : 137, width : 188, crop : 'fill' })}}"/>
+					<img data-src="{{image.resource.getThumbnailUrl({ quality: 50, height : 263, width : 395, crop : 'fill' })}}"/>
+						<img src="{{image.resource.getThumbnailUrl({ quality: 50, height : 263, width : 395, crop : 'fill' })}}"/>
+                                <img class="mediaBox" src="{{image.resource.getThumbnailUrl({ width : 225, height: 170, crop : 'fill', quality : 60 })}}" />
+						<img src="{{image.resource.getThumbnailUrl({ height : 137, width : 240, crop : 'fill', quality : 60 })}}"/>
+								<img data-lazy="{{image.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}"/>
+									<img data-lazy="{{asset.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}" alt="">
+								<img data-lazy="{{image.resource.getThumbnailUrl({ height : 300, width : 600, crop : 'fill' })}}"/>
+								<img data-lazy="{{image.resource.getThumbnailUrl({ height : 300, width : 600, crop : 'fill' })}}"/>
+										<img data-lazy="{{asset.resource.getThumbnailUrl({ height : 300, width : 600, crop : 'fill' })}}"/>
+									<img data-lazy="{{~plugins.cloudinary.createResource({ imageUrl : 'http://www.poconomountains.com/includes/public/assets/images/rc/default-img.png' }).getThumbnailUrl({width : 600, height : 300, crop : 'fill', quality: 60})}}" class='{{*templateData.placeHeight}}' />
+							<img src="{{image.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}"/>
+						<img src="{{image.resource.getThumbnailUrl({ height : 207, width : 310, crop : 'fill', quality : 60 })}}"/>
+		{{:image}}<img src="{{image.getThumbnailUrl({ "height" : 120, "width" : 250, "crop" : "fill" })}}" data-gtm-click data-gtm-vars='{ "tCore" : { "action" : "{{template}}_infowindow_image_click", "label" : "{{%%name}}" } }'>{{/}}
+		<img src="{{image.resource.getThumbnailUrl({ "height" : 137, "width" : 240, "crop" : "fill", "quality" : 65 })}}" />
+				<a href="{{image.getThumbnailUrl({ 'quality' : 60 })}}" rel="shadowbox[gallery]"><img src="{{image.getThumbnailUrl({ 'width' : 712, 'height' : 474, 'crop' : 'limit', 'quality' : 60 })}}" alt="{{medianame}}" /></a>
+													<img class="wish-image" src="{{image.resource.getThumbnailUrl({ height : 150, width : 225, crop : 'fill', quality : 60 })}}">
+						<img src="{{image.resource.1.getThumbnailUrl({ "height" : 427, "width" : 578, "crop" : "fill" })}}" onError="this.onerror=null;this.src='/includes/public/assets/images/fallback-image.png';"/>
+						<img src="{{asset.resource.getThumbnailUrl({ 'height' : 315, 'width' : 560, 'crop' : 'fill', quality : 60 })}}" />
+								<img class="vid-thumbnail" src="{{asset.resource.getThumbnailUrl({ 'height' : 315, 'width' : 560, 'crop' : 'limit', quality : 60 })}}" />
+					<img src="{{asset.resource.getThumbnailUrl({ 'height' : 150, 'width' : 175, 'crop' : 'fill', quality : 60 })}}" />
+					<img src="{{asset.resource.getThumbnailUrl({ "height" : 150, "width" : 175, "crop" : "fill", "quality" : 60 })}}" alt="{{-title}}" /> 
+					<img src="{{image.resource.getThumbnailUrl({ quality: 75, height : 67, width : 100, crop : 'fill' })}}">
+				backgroundImage = sv_cloudinaryLib.default.createResource({ imageUrl : backImageUrlMob }).getThumbnailUrl({ quality: 60, width : 640, height : 828, crop : 'fill'});
+            <i class="icon" style="background-image: url('{{twitter_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+            <i class="icon" style="background-image: url('{{pinterest_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+            <i class="icon" style="background-image: url('{{instagram_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+            <i class="icon" style="background-image: url('{{youtube_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+            <i class="icon" style="background-image: url('{{flickr_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+            <i class="icon" style="background-image: url('{{google_icon.resource.getThumbnailUrl({ height : 43, width : 42, crop : 'limit', quality : 60 })}}');"></i>
+								<img src="{{image.getThumbnailUrl({ width : 300, height : 220, crop : 'fill', quality : 60 })}}" alt="{{%title}}" />
+								<img src="{{image.getThumbnailUrl({ width : 302, height : 302, crop : 'fill', quality : 60 })}}" alt="{{%description}}" />
+								<img src="{{image.getThumbnailUrl({ width : 258, crop : 'fill', quality : 60 })}}" alt="{{%description}}" />
+								<img src="{{image.getThumbnailUrl({ width : 320, height : 220, crop : 'fill', quality : 60 })}}" alt="{{%title}}" />
+										<img src="{{image.getThumbnailUrl({ width : 100, quality : 60 })}}"/>
+					<img src="{{image.getThumbnailUrl({ height : 80, crop : "fill", quality : 60 })}}" />
