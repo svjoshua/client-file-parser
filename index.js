@@ -4,14 +4,15 @@ const chalk = require('chalk');
 const reg = /(getThumbnailUrl\({)(.*)(}\))/;
 const summary = {
 	keys : [],
-	params : {}
+	params : {},
+	counts : {}
 };
 
 const unimportant_key_values = [
 	'height',
 	'width',
 	'quality',
-	//'opacity',
+	'opacity',
 	'x',
 	'y'
 ];
@@ -56,6 +57,12 @@ lineReader.eachLine(process.argv[2], function(line, last) {
 
 		if( !summary.keys.includes(key) ){
 			summary.keys.push(key);
+		}
+
+		if( summary.counts[key] !== undefined ){
+			summary.counts[key]++;
+		}else{
+			summary.counts[key] = 1;
 		}
 
 		if( !unimportant_key_values.includes(key) ){
